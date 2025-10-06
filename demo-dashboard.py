@@ -25,7 +25,7 @@ def set_background(image_path: str):
     st.markdown(f"""
         <style>
         .stApp {{
-            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
                         url('data:image/png;base64,{encoded}');
             background-size: cover;
             background-blend-mode: darken;
