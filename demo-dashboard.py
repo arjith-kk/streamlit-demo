@@ -13,14 +13,14 @@ def set_bg(image_file):
     st.markdown(f"""
         <style>
         .stApp {{
-            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('data:image/jpg;base64,{encoded}');
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('data:image/png;base64,{encoded}');
             background-size: cover;
             background-blend-mode: darken;
         }}
         </style>
     """, unsafe_allow_html=True)
 
-set_bg('images/bg.jpg')
+set_bg('images/bg.png')
 
 # Layout: Hamburger button outside yellow bar, yellow bar contains logo and title
 logo_bytes = open("images/logo.png", "rb").read()
