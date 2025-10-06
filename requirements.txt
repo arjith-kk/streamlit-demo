@@ -1,0 +1,7 @@
+streamlit
+pandas 
+datetime 
+plotly.express
+plotly
+PIL 
+base64
