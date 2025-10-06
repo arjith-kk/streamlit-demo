@@ -13,7 +13,7 @@ def set_bg(image_file):
     st.markdown(f"""
         <style>
         .stApp {{
-            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('data:image/png;base64,{encoded}');
+            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('data:image/png;base64,{encoded}');
             background-size: cover;
             background-blend-mode: darken;
         }}
