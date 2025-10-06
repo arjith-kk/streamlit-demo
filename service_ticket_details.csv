@@ -1,0 +1,1002 @@
+TicketID,Requester,Agent,Category,Priority,Status,CreatedDate,ClosedDate,Subject,Description
+TKT00001,Mike Brown,Eve,Other,Low,On Hold,2023-07-25 01:01:00,2023-07-27 19:01:00,Sample issue 1,This is a description for ticket 1.
+TKT00002,Tom Clark,Eve,Access,Medium,Resolved,2023-09-26 23:22:13,,Sample issue 2,This is a description for ticket 2.
+TKT00003,Tom Clark,Diana,Other,Low,In Progress,2023-07-29 05:02:07,,Sample issue 3,This is a description for ticket 3.
+TKT00004,John Doe,Diana,Software,High,Open,2023-10-13 14:06:20,,Sample issue 4,This is a description for ticket 4.
+TKT00005,John Doe,Frank,Software,Critical,On Hold,2023-05-10 18:42:49,,Sample issue 5,This is a description for ticket 5.
+TKT00006,Tom Clark,Diana,Network,High,Resolved,2024-03-12 00:18:26,2024-03-13 00:18:26,Sample issue 6,This is a description for ticket 6.
+TKT00007,Tom Clark,Bob,Other,Medium,Closed,2023-07-16 11:09:42,2023-07-23 08:09:42,Sample issue 7,This is a description for ticket 7.
+TKT00008,Linda White,Diana,Hardware,Medium,On Hold,2023-02-18 11:45:29,2023-02-26 11:45:29,Sample issue 8,This is a description for ticket 8.
+TKT00009,Sara Lee,Diana,Hardware,Medium,In Progress,2023-10-24 18:00:11,,Sample issue 9,This is a description for ticket 9.
+TKT00010,Sara Lee,Frank,Hardware,Low,Closed,2023-12-08 05:30:43,,Sample issue 10,This is a description for ticket 10.
+TKT00011,Tom Clark,Diana,Network,High,Open,2023-12-08 18:02:45,,Sample issue 11,This is a description for ticket 11.
+TKT00012,Sara Lee,Diana,Access,Low,On Hold,2023-11-12 11:32:10,,Sample issue 12,This is a description for ticket 12.
+TKT00013,Jane Smith,Bob,Network,Critical,On Hold,2023-01-10 20:54:29,2023-01-20 10:54:29,Sample issue 13,This is a description for ticket 13.
+TKT00014,Linda White,Bob,Network,Medium,On Hold,2024-03-13 12:09:22,2024-03-23 10:09:22,Sample issue 14,This is a description for ticket 14.
+TKT00015,Tom Clark,Eve,Network,High,Open,2023-12-22 04:09:00,,Sample issue 15,This is a description for ticket 15.
+TKT00016,John Doe,Eve,Hardware,High,Open,2023-07-10 10:44:08,2023-07-20 03:44:08,Sample issue 16,This is a description for ticket 16.
+TKT00017,Sara Lee,Frank,Hardware,Critical,Resolved,2024-01-07 03:50:09,,Sample issue 17,This is a description for ticket 17.
+TKT00018,Sara Lee,Eve,Network,Low,In Progress,2023-12-30 15:02:26,2024-01-03 03:02:26,Sample issue 18,This is a description for ticket 18.
+TKT00019,Tom Clark,Alice,Other,Medium,Open,2023-06-05 20:32:29,,Sample issue 19,This is a description for ticket 19.
+TKT00020,Sara Lee,Eve,Network,Critical,Resolved,2023-09-08 15:43:38,2023-09-12 20:43:38,Sample issue 20,This is a description for ticket 20.
+TKT00021,John Doe,Alice,Software,Low,Closed,2023-06-09 20:10:53,,Sample issue 21,This is a description for ticket 21.
+TKT00022,Jane Smith,Alice,Hardware,Low,Resolved,2023-12-11 04:02:03,,Sample issue 22,This is a description for ticket 22.
+TKT00023,Mike Brown,Bob,Hardware,High,Resolved,2023-03-07 04:33:45,2023-03-10 15:33:45,Sample issue 23,This is a description for ticket 23.
+TKT00024,Mike Brown,Diana,Other,Critical,In Progress,2023-11-16 12:15:12,,Sample issue 24,This is a description for ticket 24.
+TKT00025,Jane Smith,Charlie,Hardware,High,Resolved,2023-08-21 10:51:07,,Sample issue 25,This is a description for ticket 25.
+TKT00026,John Doe,Diana,Other,Low,On Hold,2024-02-11 12:32:17,2024-02-16 01:32:17,Sample issue 26,This is a description for ticket 26.
+TKT00027,John Doe,Bob,Access,High,On Hold,2023-08-29 04:34:16,2023-09-02 12:34:16,Sample issue 27,This is a description for ticket 27.
+TKT00028,Mike Brown,Eve,Network,Critical,Closed,2024-03-28 07:02:00,,Sample issue 28,This is a description for ticket 28.
+TKT00029,John Doe,Charlie,Other,Medium,In Progress,2023-03-11 22:17:22,,Sample issue 29,This is a description for ticket 29.
+TKT00030,Jane Smith,Bob,Access,High,Open,2023-03-12 08:26:43,,Sample issue 30,This is a description for ticket 30.
+TKT00031,Linda White,Frank,Other,Low,Resolved,2023-06-28 05:37:30,2023-07-06 04:37:30,Sample issue 31,This is a description for ticket 31.
+TKT00032,Jane Smith,Bob,Other,High,Open,2024-04-05 07:33:56,2024-04-14 01:33:56,Sample issue 32,This is a description for ticket 32.
+TKT00033,Mike Brown,Charlie,Other,Low,On Hold,2023-10-25 19:07:59,2023-10-31 22:07:59,Sample issue 33,This is a description for ticket 33.
+TKT00034,Jane Smith,Bob,Software,High,Closed,2024-04-03 05:44:05,,Sample issue 34,This is a description for ticket 34.
+TKT00035,Tom Clark,Bob,Hardware,High,In Progress,2023-08-28 19:51:40,2023-08-30 10:51:40,Sample issue 35,This is a description for ticket 35.
+TKT00036,John Doe,Bob,Other,Low,Open,2024-03-02 15:49:01,2024-03-06 16:49:01,Sample issue 36,This is a description for ticket 36.
+TKT00037,Sara Lee,Frank,Other,Medium,In Progress,2024-05-11 20:47:10,2024-05-13 23:47:10,Sample issue 37,This is a description for ticket 37.
+TKT00038,Tom Clark,Alice,Hardware,High,Resolved,2023-03-08 00:22:14,,Sample issue 38,This is a description for ticket 38.
+TKT00039,Sara Lee,Frank,Software,High,Closed,2023-10-01 06:52:51,,Sample issue 39,This is a description for ticket 39.
+TKT00040,John Doe,Frank,Software,High,On Hold,2023-10-28 12:07:13,2023-10-29 04:07:13,Sample issue 40,This is a description for ticket 40.
+TKT00041,John Doe,Bob,Hardware,Critical,Resolved,2023-10-03 01:26:11,2023-10-10 15:26:11,Sample issue 41,This is a description for ticket 41.
+TKT00042,Linda White,Bob,Hardware,High,Open,2023-01-06 22:14:27,2023-01-16 06:14:27,Sample issue 42,This is a description for ticket 42.
+TKT00043,Linda White,Bob,Network,Critical,On Hold,2024-01-30 14:01:11,2024-02-06 03:01:11,Sample issue 43,This is a description for ticket 43.
+TKT00044,Tom Clark,Bob,Hardware,Low,Closed,2023-01-26 02:13:56,2023-01-30 00:13:56,Sample issue 44,This is a description for ticket 44.
+TKT00045,John Doe,Alice,Network,High,In Progress,2023-04-12 05:00:59,2023-04-20 17:00:59,Sample issue 45,This is a description for ticket 45.
+TKT00046,Tom Clark,Diana,Network,High,Open,2023-11-07 19:03:33,,Sample issue 46,This is a description for ticket 46.
+TKT00047,Linda White,Alice,Software,High,Closed,2023-02-18 06:28:43,,Sample issue 47,This is a description for ticket 47.
+TKT00048,John Doe,Eve,Other,Medium,On Hold,2024-05-05 00:35:19,,Sample issue 48,This is a description for ticket 48.
+TKT00049,John Doe,Eve,Access,High,Resolved,2023-11-01 07:44:27,,Sample issue 49,This is a description for ticket 49.
+TKT00050,Mike Brown,Alice,Software,Low,Open,2024-01-11 23:11:16,2024-01-18 02:11:16,Sample issue 50,This is a description for ticket 50.
+TKT00051,Sara Lee,Eve,Software,Critical,Open,2023-03-01 18:47:57,2023-03-09 20:47:57,Sample issue 51,This is a description for ticket 51.
+TKT00052,Tom Clark,Diana,Access,Critical,In Progress,2023-09-11 00:02:20,,Sample issue 52,This is a description for ticket 52.
+TKT00053,Jane Smith,Bob,Other,High,Open,2023-12-01 18:23:12,2023-12-08 04:23:12,Sample issue 53,This is a description for ticket 53.
+TKT00054,Sara Lee,Bob,Hardware,High,Open,2024-02-08 07:25:56,2024-02-16 09:25:56,Sample issue 54,This is a description for ticket 54.
+TKT00055,Mike Brown,Diana,Hardware,Medium,In Progress,2023-09-20 18:54:34,2023-09-22 01:54:34,Sample issue 55,This is a description for ticket 55.
+TKT00056,Mike Brown,Diana,Software,Critical,Open,2023-12-05 03:44:35,,Sample issue 56,This is a description for ticket 56.
+TKT00057,John Doe,Diana,Other,Medium,Closed,2023-07-14 17:04:58,2023-07-24 04:04:58,Sample issue 57,This is a description for ticket 57.
+TKT00058,John Doe,Bob,Hardware,Medium,On Hold,2023-12-13 09:31:35,,Sample issue 58,This is a description for ticket 58.
+TKT00059,Sara Lee,Charlie,Access,Medium,Closed,2023-06-02 00:11:55,2023-06-03 13:11:55,Sample issue 59,This is a description for ticket 59.
+TKT00060,Jane Smith,Alice,Network,Critical,In Progress,2023-01-04 11:53:11,,Sample issue 60,This is a description for ticket 60.
+TKT00061,Mike Brown,Frank,Network,Low,Open,2023-06-10 12:19:09,,Sample issue 61,This is a description for ticket 61.
+TKT00062,Mike Brown,Bob,Hardware,High,Open,2023-03-01 07:19:53,2023-03-09 00:19:53,Sample issue 62,This is a description for ticket 62.
+TKT00063,Linda White,Alice,Network,High,In Progress,2024-01-04 07:56:00,2024-01-07 11:56:00,Sample issue 63,This is a description for ticket 63.
+TKT00064,Linda White,Frank,Software,High,In Progress,2023-06-27 22:35:12,,Sample issue 64,This is a description for ticket 64.
+TKT00065,Linda White,Alice,Software,Low,Open,2023-10-01 06:35:59,,Sample issue 65,This is a description for ticket 65.
+TKT00066,Linda White,Bob,Other,Critical,Resolved,2023-03-11 18:26:19,2023-03-16 10:26:19,Sample issue 66,This is a description for ticket 66.
+TKT00067,Sara Lee,Diana,Access,High,Open,2024-04-03 20:35:31,,Sample issue 67,This is a description for ticket 67.
+TKT00068,Sara Lee,Eve,Hardware,Low,On Hold,2023-01-18 10:12:44,2023-01-27 10:12:44,Sample issue 68,This is a description for ticket 68.
+TKT00069,Jane Smith,Alice,Access,High,Resolved,2023-06-20 03:04:25,,Sample issue 69,This is a description for ticket 69.
+TKT00070,Mike Brown,Eve,Software,Low,In Progress,2023-03-29 23:13:50,2023-04-03 10:13:50,Sample issue 70,This is a description for ticket 70.
+TKT00071,Sara Lee,Charlie,Hardware,Low,Resolved,2024-05-12 16:20:44,2024-05-14 04:20:44,Sample issue 71,This is a description for ticket 71.
+TKT00072,Sara Lee,Diana,Software,Medium,On Hold,2023-03-28 15:51:39,2023-03-31 13:51:39,Sample issue 72,This is a description for ticket 72.
+TKT00073,John Doe,Eve,Access,High,In Progress,2023-07-27 02:32:05,2023-07-27 18:32:05,Sample issue 73,This is a description for ticket 73.
+TKT00074,Tom Clark,Eve,Access,Low,Resolved,2024-01-10 05:36:27,2024-01-19 08:36:27,Sample issue 74,This is a description for ticket 74.
+TKT00075,Jane Smith,Frank,Other,Medium,Resolved,2023-05-10 23:45:07,2023-05-14 23:45:07,Sample issue 75,This is a description for ticket 75.
+TKT00076,Jane Smith,Eve,Access,Medium,On Hold,2023-02-26 10:06:44,2023-02-28 11:06:44,Sample issue 76,This is a description for ticket 76.
+TKT00077,John Doe,Charlie,Access,Medium,Resolved,2024-05-21 23:29:59,,Sample issue 77,This is a description for ticket 77.
+TKT00078,Linda White,Bob,Hardware,High,Closed,2024-01-02 12:10:22,,Sample issue 78,This is a description for ticket 78.
+TKT00079,Mike Brown,Charlie,Software,High,On Hold,2024-01-05 14:48:45,,Sample issue 79,This is a description for ticket 79.
+TKT00080,Mike Brown,Eve,Hardware,Critical,Closed,2024-01-07 17:19:18,,Sample issue 80,This is a description for ticket 80.
+TKT00081,Linda White,Eve,Hardware,Critical,In Progress,2023-07-19 00:27:13,2023-07-24 04:27:13,Sample issue 81,This is a description for ticket 81.
+TKT00082,Tom Clark,Alice,Hardware,Critical,Closed,2024-03-14 19:11:48,,Sample issue 82,This is a description for ticket 82.
+TKT00083,Jane Smith,Bob,Other,High,Open,2024-01-18 15:00:34,,Sample issue 83,This is a description for ticket 83.
+TKT00084,John Doe,Alice,Software,High,In Progress,2023-04-09 06:14:21,,Sample issue 84,This is a description for ticket 84.
+TKT00085,Mike Brown,Bob,Other,High,Open,2024-04-26 05:07:41,2024-05-02 03:07:41,Sample issue 85,This is a description for ticket 85.
+TKT00086,John Doe,Alice,Software,Low,Open,2024-03-18 00:17:39,,Sample issue 86,This is a description for ticket 86.
+TKT00087,Tom Clark,Eve,Hardware,Medium,Open,2023-02-01 13:43:41,,Sample issue 87,This is a description for ticket 87.
+TKT00088,Linda White,Charlie,Software,Medium,On Hold,2023-08-04 09:57:12,2023-08-06 22:57:12,Sample issue 88,This is a description for ticket 88.
+TKT00089,Jane Smith,Diana,Network,Critical,Closed,2024-03-28 11:18:02,2024-03-31 15:18:02,Sample issue 89,This is a description for ticket 89.
+TKT00090,John Doe,Charlie,Software,High,Resolved,2023-02-06 00:29:19,,Sample issue 90,This is a description for ticket 90.
+TKT00091,Linda White,Bob,Network,Critical,Open,2023-08-15 08:58:02,2023-08-16 17:58:02,Sample issue 91,This is a description for ticket 91.
+TKT00092,Jane Smith,Charlie,Access,Medium,Closed,2024-03-12 21:06:16,,Sample issue 92,This is a description for ticket 92.
+TKT00093,Jane Smith,Frank,Access,Critical,Closed,2023-06-03 17:01:10,2023-06-07 09:01:10,Sample issue 93,This is a description for ticket 93.
+TKT00094,Sara Lee,Diana,Hardware,Medium,Resolved,2023-07-08 09:26:26,,Sample issue 94,This is a description for ticket 94.
+TKT00095,Linda White,Eve,Other,Critical,On Hold,2023-03-27 18:57:26,2023-04-04 09:57:26,Sample issue 95,This is a description for ticket 95.
+TKT00096,Mike Brown,Frank,Hardware,High,In Progress,2024-01-17 20:38:22,,Sample issue 96,This is a description for ticket 96.
+TKT00097,Mike Brown,Charlie,Other,High,Closed,2024-02-11 15:23:26,2024-02-19 01:23:26,Sample issue 97,This is a description for ticket 97.
+TKT00098,Tom Clark,Bob,Software,High,Open,2023-03-07 11:04:27,2023-03-13 12:04:27,Sample issue 98,This is a description for ticket 98.
+TKT00099,John Doe,Diana,Hardware,Low,On Hold,2024-05-01 15:29:06,2024-05-07 10:29:06,Sample issue 99,This is a description for ticket 99.
+TKT00100,Linda White,Diana,Hardware,High,Closed,2024-03-26 14:56:55,2024-03-27 00:56:55,Sample issue 100,This is a description for ticket 100.
+TKT00101,John Doe,Eve,Access,Medium,Closed,2024-01-21 21:00:24,,Sample issue 101,This is a description for ticket 101.
+TKT00102,Sara Lee,Diana,Hardware,Critical,Open,2023-08-10 05:08:40,2023-08-13 02:08:40,Sample issue 102,This is a description for ticket 102.
+TKT00103,Linda White,Charlie,Hardware,Low,Closed,2024-02-27 00:39:19,2024-03-04 16:39:19,Sample issue 103,This is a description for ticket 103.
+TKT00104,Linda White,Diana,Other,High,Closed,2023-11-05 11:38:17,,Sample issue 104,This is a description for ticket 104.
+TKT00105,John Doe,Bob,Software,Low,Resolved,2024-03-29 16:14:50,2024-03-29 21:14:50,Sample issue 105,This is a description for ticket 105.
+TKT00106,Tom Clark,Diana,Software,Low,Closed,2023-07-06 08:41:14,,Sample issue 106,This is a description for ticket 106.
+TKT00107,Jane Smith,Alice,Access,High,Open,2024-03-25 21:31:36,2024-04-03 21:31:36,Sample issue 107,This is a description for ticket 107.
+TKT00108,John Doe,Diana,Other,High,On Hold,2023-07-16 19:05:00,2023-07-20 21:05:00,Sample issue 108,This is a description for ticket 108.
+TKT00109,Sara Lee,Bob,Hardware,Medium,In Progress,2024-03-09 09:29:41,2024-03-18 10:29:41,Sample issue 109,This is a description for ticket 109.
+TKT00110,Tom Clark,Diana,Access,Critical,In Progress,2024-03-29 16:03:07,2024-04-02 19:03:07,Sample issue 110,This is a description for ticket 110.
+TKT00111,Jane Smith,Charlie,Other,Critical,Resolved,2023-03-15 12:17:54,2023-03-25 03:17:54,Sample issue 111,This is a description for ticket 111.
+TKT00112,Mike Brown,Frank,Network,Low,Closed,2023-12-10 11:08:29,,Sample issue 112,This is a description for ticket 112.
+TKT00113,Sara Lee,Frank,Software,Critical,Resolved,2023-05-26 16:01:40,,Sample issue 113,This is a description for ticket 113.
+TKT00114,Sara Lee,Eve,Network,Critical,Closed,2023-05-26 10:20:27,2023-06-01 13:20:27,Sample issue 114,This is a description for ticket 114.
+TKT00115,Jane Smith,Alice,Access,Critical,In Progress,2024-03-01 04:45:59,2024-03-10 02:45:59,Sample issue 115,This is a description for ticket 115.
+TKT00116,Tom Clark,Charlie,Other,Critical,Resolved,2023-08-01 17:20:59,2023-08-09 23:20:59,Sample issue 116,This is a description for ticket 116.
+TKT00117,Sara Lee,Diana,Other,Medium,In Progress,2024-04-17 01:42:22,,Sample issue 117,This is a description for ticket 117.
+TKT00118,Jane Smith,Bob,Software,Critical,On Hold,2024-04-22 09:46:04,2024-04-23 00:46:04,Sample issue 118,This is a description for ticket 118.
+TKT00119,Linda White,Bob,Software,Medium,Resolved,2023-09-07 19:23:23,2023-09-07 21:23:23,Sample issue 119,This is a description for ticket 119.
+TKT00120,John Doe,Eve,Hardware,High,In Progress,2023-04-29 17:18:54,2023-05-01 14:18:54,Sample issue 120,This is a description for ticket 120.
+TKT00121,Linda White,Diana,Software,Low,On Hold,2024-02-22 03:15:40,,Sample issue 121,This is a description for ticket 121.
+TKT00122,Sara Lee,Alice,Other,Medium,In Progress,2023-09-25 03:39:36,2023-09-28 17:39:36,Sample issue 122,This is a description for ticket 122.
+TKT00123,John Doe,Bob,Hardware,High,Open,2023-10-30 08:44:29,2023-11-04 11:44:29,Sample issue 123,This is a description for ticket 123.
+TKT00124,Mike Brown,Diana,Other,Medium,In Progress,2023-12-09 18:16:15,,Sample issue 124,This is a description for ticket 124.
+TKT00125,John Doe,Alice,Hardware,High,Open,2024-03-30 16:08:31,,Sample issue 125,This is a description for ticket 125.
+TKT00126,Sara Lee,Bob,Access,Low,On Hold,2024-03-31 15:34:42,2024-04-08 03:34:42,Sample issue 126,This is a description for ticket 126.
+TKT00127,Sara Lee,Frank,Software,Medium,In Progress,2023-07-01 19:38:33,,Sample issue 127,This is a description for ticket 127.
+TKT00128,Sara Lee,Bob,Network,High,On Hold,2023-05-01 05:07:36,2023-05-10 07:07:36,Sample issue 128,This is a description for ticket 128.
+TKT00129,Sara Lee,Bob,Software,High,Resolved,2023-01-15 09:53:32,,Sample issue 129,This is a description for ticket 129.
+TKT00130,Tom Clark,Alice,Access,Critical,Open,2023-04-18 02:25:57,,Sample issue 130,This is a description for ticket 130.
+TKT00131,Sara Lee,Bob,Access,Low,In Progress,2023-11-13 19:48:27,,Sample issue 131,This is a description for ticket 131.
+TKT00132,Tom Clark,Eve,Other,High,Open,2024-01-13 09:13:37,2024-01-16 05:13:37,Sample issue 132,This is a description for ticket 132.
+TKT00133,Mike Brown,Bob,Network,Critical,On Hold,2023-07-21 06:11:38,,Sample issue 133,This is a description for ticket 133.
+TKT00134,Jane Smith,Charlie,Access,Low,Closed,2023-06-23 17:22:40,2023-07-02 04:22:40,Sample issue 134,This is a description for ticket 134.
+TKT00135,Tom Clark,Bob,Access,High,Closed,2023-01-28 15:57:13,,Sample issue 135,This is a description for ticket 135.
+TKT00136,John Doe,Diana,Access,High,Open,2023-07-29 10:58:01,,Sample issue 136,This is a description for ticket 136.
+TKT00137,John Doe,Bob,Hardware,Critical,In Progress,2023-03-22 10:33:23,,Sample issue 137,This is a description for ticket 137.
+TKT00138,Mike Brown,Frank,Hardware,Medium,In Progress,2023-09-24 14:44:23,2023-10-03 16:44:23,Sample issue 138,This is a description for ticket 138.
+TKT00139,Jane Smith,Diana,Hardware,Medium,Resolved,2023-11-14 18:53:21,2023-11-19 11:53:21,Sample issue 139,This is a description for ticket 139.
+TKT00140,Sara Lee,Eve,Access,Low,Open,2023-07-31 03:41:03,2023-08-08 21:41:03,Sample issue 140,This is a description for ticket 140.
+TKT00141,Jane Smith,Eve,Network,High,Resolved,2023-10-03 16:41:39,2023-10-04 07:41:39,Sample issue 141,This is a description for ticket 141.
+TKT00142,Mike Brown,Frank,Software,High,On Hold,2023-08-09 10:31:56,,Sample issue 142,This is a description for ticket 142.
+TKT00143,John Doe,Alice,Network,High,In Progress,2023-07-16 18:49:01,,Sample issue 143,This is a description for ticket 143.
+TKT00144,Tom Clark,Eve,Access,Low,On Hold,2024-03-21 02:03:59,2024-03-21 18:03:59,Sample issue 144,This is a description for ticket 144.
+TKT00145,John Doe,Frank,Network,High,Open,2023-04-01 02:57:19,2023-04-07 04:57:19,Sample issue 145,This is a description for ticket 145.
+TKT00146,Jane Smith,Frank,Other,Critical,In Progress,2024-05-15 12:58:40,,Sample issue 146,This is a description for ticket 146.
+TKT00147,Tom Clark,Frank,Hardware,Low,On Hold,2024-05-24 10:43:53,2024-05-24 12:43:53,Sample issue 147,This is a description for ticket 147.
+TKT00148,Tom Clark,Charlie,Other,Low,In Progress,2024-02-21 15:40:17,2024-02-26 13:40:17,Sample issue 148,This is a description for ticket 148.
+TKT00149,Linda White,Bob,Access,High,Closed,2023-01-07 16:07:16,,Sample issue 149,This is a description for ticket 149.
+TKT00150,Sara Lee,Bob,Hardware,Critical,In Progress,2023-09-16 21:18:11,2023-09-19 15:18:11,Sample issue 150,This is a description for ticket 150.
+TKT00151,Linda White,Charlie,Hardware,Medium,In Progress,2023-01-23 15:30:56,,Sample issue 151,This is a description for ticket 151.
+TKT00152,John Doe,Frank,Hardware,Medium,In Progress,2023-04-24 18:52:37,,Sample issue 152,This is a description for ticket 152.
+TKT00153,Sara Lee,Diana,Access,Critical,In Progress,2023-01-14 14:35:03,2023-01-21 12:35:03,Sample issue 153,This is a description for ticket 153.
+TKT00154,Mike Brown,Alice,Hardware,High,Resolved,2023-07-12 01:55:22,,Sample issue 154,This is a description for ticket 154.
+TKT00155,Linda White,Alice,Other,Critical,In Progress,2023-06-21 14:19:25,2023-06-30 00:19:25,Sample issue 155,This is a description for ticket 155.
+TKT00156,Linda White,Frank,Hardware,Medium,On Hold,2023-07-01 00:46:28,,Sample issue 156,This is a description for ticket 156.
+TKT00157,Sara Lee,Eve,Access,Critical,Closed,2023-07-22 16:08:51,,Sample issue 157,This is a description for ticket 157.
+TKT00158,John Doe,Charlie,Access,High,Closed,2023-01-12 00:57:51,,Sample issue 158,This is a description for ticket 158.
+TKT00159,Tom Clark,Eve,Other,Low,On Hold,2023-03-16 10:50:05,2023-03-22 03:50:05,Sample issue 159,This is a description for ticket 159.
+TKT00160,Mike Brown,Charlie,Hardware,Medium,In Progress,2024-01-02 13:22:39,,Sample issue 160,This is a description for ticket 160.
+TKT00161,Linda White,Diana,Access,Critical,On Hold,2023-08-31 06:37:03,2023-09-05 20:37:03,Sample issue 161,This is a description for ticket 161.
+TKT00162,Sara Lee,Diana,Hardware,Medium,In Progress,2023-06-09 15:49:30,,Sample issue 162,This is a description for ticket 162.
+TKT00163,Linda White,Frank,Network,High,On Hold,2024-02-15 13:34:14,2024-02-24 22:34:14,Sample issue 163,This is a description for ticket 163.
+TKT00164,Jane Smith,Bob,Software,Medium,Closed,2024-03-03 11:23:29,,Sample issue 164,This is a description for ticket 164.
+TKT00165,Linda White,Bob,Network,Medium,Closed,2023-03-16 00:21:48,2023-03-17 18:21:48,Sample issue 165,This is a description for ticket 165.
+TKT00166,Mike Brown,Alice,Network,Critical,On Hold,2023-11-29 10:35:39,2023-12-01 07:35:39,Sample issue 166,This is a description for ticket 166.
+TKT00167,Tom Clark,Diana,Network,High,On Hold,2023-03-23 17:29:23,,Sample issue 167,This is a description for ticket 167.
+TKT00168,Tom Clark,Charlie,Network,Medium,Open,2023-06-27 23:07:56,2023-06-28 07:07:56,Sample issue 168,This is a description for ticket 168.
+TKT00169,Sara Lee,Eve,Access,High,Closed,2024-05-07 15:43:18,,Sample issue 169,This is a description for ticket 169.
+TKT00170,John Doe,Charlie,Network,Medium,Closed,2023-07-02 01:21:12,2023-07-10 17:21:12,Sample issue 170,This is a description for ticket 170.
+TKT00171,Sara Lee,Diana,Network,Medium,Closed,2024-02-19 03:04:43,2024-02-21 22:04:43,Sample issue 171,This is a description for ticket 171.
+TKT00172,Linda White,Diana,Network,Critical,In Progress,2023-11-12 17:37:49,,Sample issue 172,This is a description for ticket 172.
+TKT00173,John Doe,Diana,Network,Medium,Open,2023-11-09 22:48:42,,Sample issue 173,This is a description for ticket 173.
+TKT00174,Jane Smith,Bob,Other,Low,On Hold,2023-01-21 05:31:25,2023-01-25 05:31:25,Sample issue 174,This is a description for ticket 174.
+TKT00175,Jane Smith,Alice,Network,Low,Open,2024-03-19 15:23:43,2024-03-26 14:23:43,Sample issue 175,This is a description for ticket 175.
+TKT00176,John Doe,Eve,Hardware,Medium,In Progress,2024-04-06 10:47:22,,Sample issue 176,This is a description for ticket 176.
+TKT00177,Sara Lee,Alice,Other,Critical,On Hold,2023-02-23 04:39:01,2023-03-04 22:39:01,Sample issue 177,This is a description for ticket 177.
+TKT00178,John Doe,Eve,Other,Medium,Resolved,2023-08-06 16:16:15,,Sample issue 178,This is a description for ticket 178.
+TKT00179,Sara Lee,Eve,Network,Medium,Open,2023-08-08 17:35:47,2023-08-10 18:35:47,Sample issue 179,This is a description for ticket 179.
+TKT00180,Linda White,Bob,Access,Medium,Resolved,2023-07-12 12:31:33,,Sample issue 180,This is a description for ticket 180.
+TKT00181,John Doe,Eve,Other,Medium,Open,2023-07-18 23:04:39,2023-07-23 10:04:39,Sample issue 181,This is a description for ticket 181.
+TKT00182,Jane Smith,Charlie,Other,Critical,Open,2023-03-11 12:32:05,2023-03-16 16:32:05,Sample issue 182,This is a description for ticket 182.
+TKT00183,Mike Brown,Diana,Other,High,Closed,2024-01-27 22:38:06,,Sample issue 183,This is a description for ticket 183.
+TKT00184,Sara Lee,Alice,Other,High,Closed,2023-01-06 07:40:23,,Sample issue 184,This is a description for ticket 184.
+TKT00185,John Doe,Charlie,Software,Critical,On Hold,2023-07-07 09:31:08,,Sample issue 185,This is a description for ticket 185.
+TKT00186,Tom Clark,Frank,Network,High,Resolved,2024-04-26 11:57:56,2024-05-01 13:57:56,Sample issue 186,This is a description for ticket 186.
+TKT00187,Tom Clark,Frank,Other,High,Resolved,2024-05-17 00:18:08,,Sample issue 187,This is a description for ticket 187.
+TKT00188,Tom Clark,Frank,Hardware,Low,Open,2023-05-28 00:52:33,2023-05-30 06:52:33,Sample issue 188,This is a description for ticket 188.
+TKT00189,John Doe,Eve,Access,High,Open,2024-03-26 15:42:25,,Sample issue 189,This is a description for ticket 189.
+TKT00190,John Doe,Charlie,Software,High,On Hold,2023-03-30 03:25:51,2023-04-01 21:25:51,Sample issue 190,This is a description for ticket 190.
+TKT00191,Tom Clark,Bob,Network,Low,Open,2023-11-03 22:30:46,2023-11-07 20:30:46,Sample issue 191,This is a description for ticket 191.
+TKT00192,Linda White,Frank,Access,Critical,Closed,2023-08-22 06:55:33,,Sample issue 192,This is a description for ticket 192.
+TKT00193,Mike Brown,Eve,Software,Critical,Resolved,2023-09-24 15:33:26,,Sample issue 193,This is a description for ticket 193.
+TKT00194,Sara Lee,Charlie,Hardware,Critical,In Progress,2023-09-13 11:35:30,2023-09-14 05:35:30,Sample issue 194,This is a description for ticket 194.
+TKT00195,Sara Lee,Alice,Other,High,Resolved,2024-04-29 20:44:52,,Sample issue 195,This is a description for ticket 195.
+TKT00196,John Doe,Charlie,Hardware,Low,Closed,2023-07-18 21:16:42,,Sample issue 196,This is a description for ticket 196.
+TKT00197,Sara Lee,Charlie,Software,Critical,Resolved,2024-04-04 02:38:59,,Sample issue 197,This is a description for ticket 197.
+TKT00198,Mike Brown,Eve,Hardware,High,On Hold,2023-04-04 00:25:11,,Sample issue 198,This is a description for ticket 198.
+TKT00199,Jane Smith,Alice,Hardware,Low,Closed,2024-05-19 18:54:47,2024-05-22 02:54:47,Sample issue 199,This is a description for ticket 199.
+TKT00200,Jane Smith,Alice,Software,Low,On Hold,2024-01-06 11:00:35,2024-01-12 22:00:35,Sample issue 200,This is a description for ticket 200.
+TKT00201,John Doe,Charlie,Network,High,In Progress,2023-02-21 07:18:16,2023-02-27 08:18:16,Sample issue 201,This is a description for ticket 201.
+TKT00202,Jane Smith,Diana,Network,Critical,Closed,2023-09-14 08:13:00,2023-09-23 05:13:00,Sample issue 202,This is a description for ticket 202.
+TKT00203,Sara Lee,Charlie,Network,Critical,Closed,2023-02-05 16:58:50,,Sample issue 203,This is a description for ticket 203.
+TKT00204,John Doe,Bob,Software,Critical,Closed,2024-03-26 22:04:19,,Sample issue 204,This is a description for ticket 204.
+TKT00205,Tom Clark,Alice,Network,Low,Closed,2024-04-28 19:34:40,2024-05-03 12:34:40,Sample issue 205,This is a description for ticket 205.
+TKT00206,John Doe,Bob,Access,Low,In Progress,2023-05-01 00:15:30,,Sample issue 206,This is a description for ticket 206.
+TKT00207,Jane Smith,Eve,Hardware,Critical,Closed,2023-06-07 04:59:43,,Sample issue 207,This is a description for ticket 207.
+TKT00208,Linda White,Frank,Network,Medium,Resolved,2024-03-19 14:31:33,,Sample issue 208,This is a description for ticket 208.
+TKT00209,Mike Brown,Frank,Software,High,On Hold,2023-09-23 17:31:42,2023-09-28 02:31:42,Sample issue 209,This is a description for ticket 209.
+TKT00210,Linda White,Bob,Network,Medium,Closed,2024-01-24 17:03:19,,Sample issue 210,This is a description for ticket 210.
+TKT00211,Jane Smith,Frank,Other,Medium,Closed,2023-01-15 09:45:18,,Sample issue 211,This is a description for ticket 211.
+TKT00212,Mike Brown,Bob,Access,Critical,On Hold,2023-12-01 20:08:37,2023-12-03 11:08:37,Sample issue 212,This is a description for ticket 212.
+TKT00213,Mike Brown,Bob,Access,Critical,In Progress,2023-11-17 13:36:16,,Sample issue 213,This is a description for ticket 213.
+TKT00214,Mike Brown,Charlie,Network,Low,In Progress,2023-12-16 17:43:57,,Sample issue 214,This is a description for ticket 214.
+TKT00215,Sara Lee,Alice,Hardware,Medium,On Hold,2023-08-02 17:14:25,,Sample issue 215,This is a description for ticket 215.
+TKT00216,John Doe,Alice,Software,High,On Hold,2024-04-12 00:48:31,2024-04-18 14:48:31,Sample issue 216,This is a description for ticket 216.
+TKT00217,Mike Brown,Alice,Access,High,On Hold,2024-04-24 10:44:32,2024-04-29 10:44:32,Sample issue 217,This is a description for ticket 217.
+TKT00218,John Doe,Bob,Hardware,Low,Resolved,2024-05-05 05:40:08,,Sample issue 218,This is a description for ticket 218.
+TKT00219,Linda White,Frank,Other,Medium,Resolved,2024-04-25 06:03:07,2024-04-30 09:03:07,Sample issue 219,This is a description for ticket 219.
+TKT00220,Tom Clark,Frank,Access,Medium,Open,2023-05-23 18:33:16,,Sample issue 220,This is a description for ticket 220.
+TKT00221,Tom Clark,Diana,Software,Low,Open,2023-03-30 17:51:24,,Sample issue 221,This is a description for ticket 221.
+TKT00222,Jane Smith,Eve,Network,Low,On Hold,2023-01-08 07:10:18,2023-01-12 07:10:18,Sample issue 222,This is a description for ticket 222.
+TKT00223,Linda White,Frank,Other,High,On Hold,2024-03-07 15:35:30,2024-03-09 14:35:30,Sample issue 223,This is a description for ticket 223.
+TKT00224,Jane Smith,Alice,Network,Low,Closed,2023-12-27 21:34:50,,Sample issue 224,This is a description for ticket 224.
+TKT00225,Tom Clark,Eve,Network,Medium,Resolved,2024-03-17 09:15:51,2024-03-20 14:15:51,Sample issue 225,This is a description for ticket 225.
+TKT00226,Tom Clark,Alice,Access,High,In Progress,2023-01-03 05:50:39,2023-01-04 02:50:39,Sample issue 226,This is a description for ticket 226.
+TKT00227,Linda White,Bob,Network,Critical,Open,2023-05-01 07:34:42,,Sample issue 227,This is a description for ticket 227.
+TKT00228,Sara Lee,Charlie,Software,Critical,On Hold,2023-07-28 15:59:49,,Sample issue 228,This is a description for ticket 228.
+TKT00229,Tom Clark,Alice,Software,Low,Open,2024-01-18 02:13:52,,Sample issue 229,This is a description for ticket 229.
+TKT00230,Tom Clark,Eve,Network,Critical,Resolved,2023-03-03 05:06:56,,Sample issue 230,This is a description for ticket 230.
+TKT00231,Mike Brown,Alice,Other,Critical,On Hold,2023-10-26 00:20:44,2023-10-30 09:20:44,Sample issue 231,This is a description for ticket 231.
+TKT00232,Mike Brown,Eve,Other,High,Resolved,2024-01-20 17:43:20,2024-01-26 07:43:20,Sample issue 232,This is a description for ticket 232.
+TKT00233,Mike Brown,Frank,Hardware,High,On Hold,2023-10-27 06:00:45,,Sample issue 233,This is a description for ticket 233.
+TKT00234,Sara Lee,Diana,Other,Low,Resolved,2024-03-16 14:18:58,,Sample issue 234,This is a description for ticket 234.
+TKT00235,Jane Smith,Diana,Hardware,Critical,In Progress,2023-05-03 09:55:44,,Sample issue 235,This is a description for ticket 235.
+TKT00236,Tom Clark,Bob,Other,Low,Resolved,2023-07-12 11:29:42,,Sample issue 236,This is a description for ticket 236.
+TKT00237,Sara Lee,Eve,Other,Critical,Open,2023-03-02 12:38:10,2023-03-05 00:38:10,Sample issue 237,This is a description for ticket 237.
+TKT00238,Tom Clark,Charlie,Access,Medium,Open,2023-10-25 04:45:31,2023-11-04 02:45:31,Sample issue 238,This is a description for ticket 238.
+TKT00239,Mike Brown,Alice,Access,Critical,Closed,2023-03-22 02:37:14,2023-03-26 12:37:14,Sample issue 239,This is a description for ticket 239.
+TKT00240,John Doe,Diana,Access,High,On Hold,2023-03-14 08:19:26,,Sample issue 240,This is a description for ticket 240.
+TKT00241,Mike Brown,Diana,Access,Medium,Resolved,2024-02-17 03:19:20,,Sample issue 241,This is a description for ticket 241.
+TKT00242,Mike Brown,Diana,Network,Medium,Closed,2023-06-09 02:22:14,2023-06-12 23:22:14,Sample issue 242,This is a description for ticket 242.
+TKT00243,Mike Brown,Diana,Other,High,In Progress,2023-12-18 13:39:14,2023-12-18 18:39:14,Sample issue 243,This is a description for ticket 243.
+TKT00244,John Doe,Frank,Network,High,Closed,2024-01-15 00:29:08,2024-01-24 17:29:08,Sample issue 244,This is a description for ticket 244.
+TKT00245,Jane Smith,Frank,Network,Critical,On Hold,2024-03-25 05:00:55,2024-03-28 11:00:55,Sample issue 245,This is a description for ticket 245.
+TKT00246,Tom Clark,Diana,Other,Medium,Resolved,2024-04-16 05:17:08,,Sample issue 246,This is a description for ticket 246.
+TKT00247,Sara Lee,Bob,Hardware,Critical,Resolved,2023-09-01 19:38:24,,Sample issue 247,This is a description for ticket 247.
+TKT00248,Linda White,Eve,Hardware,Low,Closed,2023-07-04 09:15:39,2023-07-12 01:15:39,Sample issue 248,This is a description for ticket 248.
+TKT00249,Jane Smith,Frank,Software,Medium,On Hold,2024-02-21 05:42:47,2024-03-01 20:42:47,Sample issue 249,This is a description for ticket 249.
+TKT00250,John Doe,Charlie,Access,Medium,In Progress,2024-01-03 06:16:52,2024-01-04 15:16:52,Sample issue 250,This is a description for ticket 250.
+TKT00251,Linda White,Charlie,Network,Critical,Open,2023-03-12 00:27:31,,Sample issue 251,This is a description for ticket 251.
+TKT00252,Mike Brown,Charlie,Network,Low,On Hold,2024-02-03 15:19:52,,Sample issue 252,This is a description for ticket 252.
+TKT00253,Sara Lee,Frank,Other,High,Open,2023-07-21 14:29:53,2023-07-29 01:29:53,Sample issue 253,This is a description for ticket 253.
+TKT00254,Linda White,Eve,Other,High,In Progress,2023-03-14 19:05:49,,Sample issue 254,This is a description for ticket 254.
+TKT00255,Jane Smith,Frank,Software,Critical,In Progress,2023-01-10 20:56:15,,Sample issue 255,This is a description for ticket 255.
+TKT00256,Tom Clark,Alice,Network,High,On Hold,2023-08-28 07:41:30,,Sample issue 256,This is a description for ticket 256.
+TKT00257,Tom Clark,Eve,Hardware,High,In Progress,2023-11-13 06:46:23,2023-11-21 03:46:23,Sample issue 257,This is a description for ticket 257.
+TKT00258,Linda White,Alice,Software,Critical,Resolved,2023-02-22 12:39:12,,Sample issue 258,This is a description for ticket 258.
+TKT00259,Jane Smith,Bob,Other,High,On Hold,2024-02-10 04:40:55,2024-02-12 18:40:55,Sample issue 259,This is a description for ticket 259.
+TKT00260,John Doe,Charlie,Other,High,Open,2023-07-24 21:07:05,2023-07-30 02:07:05,Sample issue 260,This is a description for ticket 260.
+TKT00261,Sara Lee,Frank,Network,Medium,Open,2024-02-04 17:41:01,,Sample issue 261,This is a description for ticket 261.
+TKT00262,Tom Clark,Alice,Software,Low,On Hold,2024-01-06 12:34:31,2024-01-15 20:34:31,Sample issue 262,This is a description for ticket 262.
+TKT00263,Tom Clark,Charlie,Hardware,Low,Open,2023-07-05 20:47:30,2023-07-14 12:47:30,Sample issue 263,This is a description for ticket 263.
+TKT00264,John Doe,Bob,Access,Low,On Hold,2023-10-28 19:55:11,2023-11-04 17:55:11,Sample issue 264,This is a description for ticket 264.
+TKT00265,Sara Lee,Eve,Hardware,Medium,Closed,2023-02-27 00:32:06,2023-02-27 19:32:06,Sample issue 265,This is a description for ticket 265.
+TKT00266,Tom Clark,Alice,Software,Low,Open,2023-07-05 08:49:32,,Sample issue 266,This is a description for ticket 266.
+TKT00267,Tom Clark,Bob,Network,High,Closed,2023-10-23 12:20:11,2023-10-30 18:20:11,Sample issue 267,This is a description for ticket 267.
+TKT00268,Sara Lee,Charlie,Hardware,Low,On Hold,2023-04-28 14:06:34,2023-05-04 13:06:34,Sample issue 268,This is a description for ticket 268.
+TKT00269,John Doe,Diana,Network,Medium,On Hold,2024-05-07 21:44:02,2024-05-14 21:44:02,Sample issue 269,This is a description for ticket 269.
+TKT00270,Tom Clark,Alice,Hardware,High,In Progress,2024-05-10 04:23:50,,Sample issue 270,This is a description for ticket 270.
+TKT00271,Mike Brown,Bob,Other,High,Open,2023-11-21 11:18:05,2023-11-30 21:18:05,Sample issue 271,This is a description for ticket 271.
+TKT00272,Linda White,Alice,Software,High,Resolved,2023-10-20 21:14:45,,Sample issue 272,This is a description for ticket 272.
+TKT00273,Sara Lee,Diana,Hardware,Low,Closed,2024-05-18 00:07:53,2024-05-25 12:07:53,Sample issue 273,This is a description for ticket 273.
+TKT00274,Sara Lee,Diana,Other,Low,Resolved,2023-07-23 14:18:42,2023-08-01 07:18:42,Sample issue 274,This is a description for ticket 274.
+TKT00275,Linda White,Eve,Other,Critical,In Progress,2024-03-21 12:32:22,,Sample issue 275,This is a description for ticket 275.
+TKT00276,Mike Brown,Bob,Network,High,Closed,2023-06-13 18:44:20,2023-06-16 02:44:20,Sample issue 276,This is a description for ticket 276.
+TKT00277,Tom Clark,Frank,Other,Medium,On Hold,2023-01-14 12:13:51,2023-01-19 15:13:51,Sample issue 277,This is a description for ticket 277.
+TKT00278,Sara Lee,Bob,Software,Medium,On Hold,2023-04-11 19:23:16,,Sample issue 278,This is a description for ticket 278.
+TKT00279,Mike Brown,Frank,Network,High,In Progress,2023-09-01 03:17:11,2023-09-07 22:17:11,Sample issue 279,This is a description for ticket 279.
+TKT00280,Sara Lee,Alice,Network,Medium,Resolved,2023-12-06 02:10:28,,Sample issue 280,This is a description for ticket 280.
+TKT00281,Linda White,Eve,Hardware,Critical,On Hold,2023-10-27 00:28:42,2023-11-03 18:28:42,Sample issue 281,This is a description for ticket 281.
+TKT00282,Linda White,Alice,Hardware,Low,Closed,2024-02-15 12:28:03,2024-02-23 05:28:03,Sample issue 282,This is a description for ticket 282.
+TKT00283,Tom Clark,Frank,Network,High,On Hold,2023-04-02 02:20:03,2023-04-02 16:20:03,Sample issue 283,This is a description for ticket 283.
+TKT00284,Sara Lee,Eve,Other,Medium,Resolved,2023-01-22 03:59:04,2023-01-24 22:59:04,Sample issue 284,This is a description for ticket 284.
+TKT00285,Sara Lee,Eve,Software,Medium,On Hold,2024-02-28 17:47:57,,Sample issue 285,This is a description for ticket 285.
+TKT00286,Mike Brown,Eve,Software,High,Closed,2023-03-30 02:31:22,2023-04-02 21:31:22,Sample issue 286,This is a description for ticket 286.
+TKT00287,Mike Brown,Diana,Network,High,Resolved,2024-04-15 16:24:12,2024-04-21 00:24:12,Sample issue 287,This is a description for ticket 287.
+TKT00288,John Doe,Eve,Other,Critical,Resolved,2024-05-17 06:40:06,2024-05-25 20:40:06,Sample issue 288,This is a description for ticket 288.
+TKT00289,Sara Lee,Charlie,Software,High,Resolved,2023-07-27 07:51:00,,Sample issue 289,This is a description for ticket 289.
+TKT00290,John Doe,Eve,Access,Medium,Open,2024-05-11 03:13:30,,Sample issue 290,This is a description for ticket 290.
+TKT00291,John Doe,Charlie,Software,High,Closed,2023-10-23 10:12:18,,Sample issue 291,This is a description for ticket 291.
+TKT00292,Jane Smith,Bob,Network,Low,Resolved,2023-03-07 07:44:46,2023-03-11 18:44:46,Sample issue 292,This is a description for ticket 292.
+TKT00293,Sara Lee,Bob,Access,Medium,Resolved,2023-09-16 00:15:17,2023-09-23 20:15:17,Sample issue 293,This is a description for ticket 293.
+TKT00294,Jane Smith,Charlie,Hardware,Low,In Progress,2023-09-19 18:31:29,2023-09-26 23:31:29,Sample issue 294,This is a description for ticket 294.
+TKT00295,Tom Clark,Diana,Access,Critical,Closed,2024-01-25 14:31:07,2024-02-04 13:31:07,Sample issue 295,This is a description for ticket 295.
+TKT00296,Jane Smith,Alice,Other,Low,Closed,2023-08-23 09:46:00,,Sample issue 296,This is a description for ticket 296.
+TKT00297,Mike Brown,Charlie,Access,High,Closed,2023-11-15 05:54:26,,Sample issue 297,This is a description for ticket 297.
+TKT00298,Sara Lee,Eve,Other,Low,On Hold,2023-08-10 10:03:52,,Sample issue 298,This is a description for ticket 298.
+TKT00299,Sara Lee,Bob,Software,Critical,On Hold,2023-11-14 07:31:33,,Sample issue 299,This is a description for ticket 299.
+TKT00300,Sara Lee,Eve,Other,Low,Closed,2023-03-30 23:21:40,,Sample issue 300,This is a description for ticket 300.
+TKT00301,Mike Brown,Diana,Network,Medium,Closed,2023-08-07 09:37:43,2023-08-15 16:37:43,Sample issue 301,This is a description for ticket 301.
+TKT00302,Mike Brown,Bob,Access,High,On Hold,2023-05-27 02:47:05,,Sample issue 302,This is a description for ticket 302.
+TKT00303,John Doe,Alice,Hardware,Medium,Resolved,2023-01-02 17:13:15,2023-01-09 20:13:15,Sample issue 303,This is a description for ticket 303.
+TKT00304,Mike Brown,Eve,Hardware,Critical,Open,2023-10-18 13:12:44,2023-10-27 20:12:44,Sample issue 304,This is a description for ticket 304.
+TKT00305,Mike Brown,Frank,Other,Medium,Open,2024-04-29 08:27:52,2024-05-02 15:27:52,Sample issue 305,This is a description for ticket 305.
+TKT00306,John Doe,Charlie,Network,Low,On Hold,2024-05-08 16:53:28,2024-05-18 01:53:28,Sample issue 306,This is a description for ticket 306.
+TKT00307,Sara Lee,Eve,Network,Critical,Open,2023-04-10 12:36:28,2023-04-19 03:36:28,Sample issue 307,This is a description for ticket 307.
+TKT00308,Linda White,Alice,Other,High,Closed,2024-01-14 10:33:23,2024-01-23 16:33:23,Sample issue 308,This is a description for ticket 308.
+TKT00309,Mike Brown,Charlie,Software,Medium,Resolved,2023-10-29 21:21:58,2023-11-03 21:21:58,Sample issue 309,This is a description for ticket 309.
+TKT00310,Tom Clark,Charlie,Access,Low,In Progress,2023-02-11 08:51:36,,Sample issue 310,This is a description for ticket 310.
+TKT00311,Sara Lee,Diana,Access,Medium,Open,2023-09-15 03:45:49,,Sample issue 311,This is a description for ticket 311.
+TKT00312,Sara Lee,Eve,Network,High,Resolved,2023-04-24 01:49:33,,Sample issue 312,This is a description for ticket 312.
+TKT00313,John Doe,Eve,Access,Critical,Resolved,2024-05-26 12:55:35,,Sample issue 313,This is a description for ticket 313.
+TKT00314,Sara Lee,Charlie,Hardware,Low,Closed,2023-12-17 13:36:43,2023-12-22 07:36:43,Sample issue 314,This is a description for ticket 314.
+TKT00315,John Doe,Frank,Hardware,Critical,On Hold,2023-07-30 03:21:00,2023-07-31 14:21:00,Sample issue 315,This is a description for ticket 315.
+TKT00316,Tom Clark,Charlie,Hardware,Medium,Closed,2023-08-27 11:43:47,,Sample issue 316,This is a description for ticket 316.
+TKT00317,Mike Brown,Eve,Software,Medium,Closed,2023-11-06 05:10:12,2023-11-08 01:10:12,Sample issue 317,This is a description for ticket 317.
+TKT00318,Mike Brown,Charlie,Software,Critical,Open,2024-04-04 17:17:41,2024-04-04 22:17:41,Sample issue 318,This is a description for ticket 318.
+TKT00319,John Doe,Diana,Other,Critical,Resolved,2023-08-01 13:09:43,2023-08-08 02:09:43,Sample issue 319,This is a description for ticket 319.
+TKT00320,John Doe,Bob,Hardware,Low,Closed,2024-05-29 08:52:39,2024-05-29 12:52:39,Sample issue 320,This is a description for ticket 320.
+TKT00321,Sara Lee,Bob,Network,Low,On Hold,2024-03-13 17:18:44,2024-03-23 14:18:44,Sample issue 321,This is a description for ticket 321.
+TKT00322,John Doe,Bob,Access,Critical,Closed,2023-02-22 09:18:09,,Sample issue 322,This is a description for ticket 322.
+TKT00323,Jane Smith,Bob,Network,Medium,On Hold,2023-02-09 21:55:20,,Sample issue 323,This is a description for ticket 323.
+TKT00324,Sara Lee,Diana,Other,Medium,Closed,2023-07-15 07:55:36,,Sample issue 324,This is a description for ticket 324.
+TKT00325,Linda White,Diana,Access,Low,Closed,2023-01-16 00:46:59,,Sample issue 325,This is a description for ticket 325.
+TKT00326,Tom Clark,Frank,Other,Low,On Hold,2023-10-12 20:22:52,,Sample issue 326,This is a description for ticket 326.
+TKT00327,John Doe,Alice,Other,Low,In Progress,2023-01-18 11:55:43,2023-01-23 15:55:43,Sample issue 327,This is a description for ticket 327.
+TKT00328,Sara Lee,Diana,Access,High,Closed,2023-04-02 15:46:17,2023-04-06 11:46:17,Sample issue 328,This is a description for ticket 328.
+TKT00329,Linda White,Alice,Network,Medium,In Progress,2023-06-18 06:11:52,,Sample issue 329,This is a description for ticket 329.
+TKT00330,Linda White,Frank,Access,Medium,In Progress,2024-01-30 19:25:45,2024-02-07 17:25:45,Sample issue 330,This is a description for ticket 330.
+TKT00331,Jane Smith,Charlie,Network,Critical,Closed,2023-11-18 19:11:27,2023-11-19 16:11:27,Sample issue 331,This is a description for ticket 331.
+TKT00332,John Doe,Frank,Other,Low,On Hold,2023-10-11 18:23:19,,Sample issue 332,This is a description for ticket 332.
+TKT00333,Linda White,Eve,Software,Critical,Resolved,2023-10-12 05:50:27,,Sample issue 333,This is a description for ticket 333.
+TKT00334,Tom Clark,Alice,Other,High,Closed,2023-04-10 20:31:41,2023-04-16 23:31:41,Sample issue 334,This is a description for ticket 334.
+TKT00335,Mike Brown,Bob,Software,Critical,Resolved,2023-01-05 05:15:00,2023-01-14 20:15:00,Sample issue 335,This is a description for ticket 335.
+TKT00336,Tom Clark,Diana,Access,Low,On Hold,2023-03-02 11:06:14,2023-03-08 18:06:14,Sample issue 336,This is a description for ticket 336.
+TKT00337,Tom Clark,Charlie,Software,Medium,Open,2024-01-12 23:27:48,,Sample issue 337,This is a description for ticket 337.
+TKT00338,John Doe,Eve,Access,High,Closed,2023-05-28 20:45:09,,Sample issue 338,This is a description for ticket 338.
+TKT00339,Sara Lee,Bob,Software,Critical,In Progress,2023-04-13 03:46:16,2023-04-19 21:46:16,Sample issue 339,This is a description for ticket 339.
+TKT00340,Jane Smith,Frank,Other,Critical,Closed,2023-02-14 10:11:13,2023-02-16 06:11:13,Sample issue 340,This is a description for ticket 340.
+TKT00341,Linda White,Frank,Access,Medium,Open,2024-02-09 02:07:12,,Sample issue 341,This is a description for ticket 341.
+TKT00342,Linda White,Diana,Hardware,Medium,Resolved,2024-02-25 16:18:04,,Sample issue 342,This is a description for ticket 342.
+TKT00343,John Doe,Bob,Other,Critical,Open,2024-03-20 20:20:00,,Sample issue 343,This is a description for ticket 343.
+TKT00344,Linda White,Frank,Software,Low,Closed,2024-04-13 07:09:59,,Sample issue 344,This is a description for ticket 344.
+TKT00345,Sara Lee,Charlie,Access,Medium,Resolved,2024-05-06 07:33:33,2024-05-16 06:33:33,Sample issue 345,This is a description for ticket 345.
+TKT00346,Tom Clark,Bob,Access,Critical,Open,2023-06-22 03:06:02,2023-07-02 01:06:02,Sample issue 346,This is a description for ticket 346.
+TKT00347,Jane Smith,Alice,Network,High,Resolved,2023-02-21 12:11:12,,Sample issue 347,This is a description for ticket 347.
+TKT00348,Jane Smith,Alice,Software,Medium,On Hold,2023-04-24 04:58:44,2023-04-25 20:58:44,Sample issue 348,This is a description for ticket 348.
+TKT00349,Tom Clark,Alice,Access,Low,Resolved,2023-04-11 05:48:02,,Sample issue 349,This is a description for ticket 349.
+TKT00350,Mike Brown,Charlie,Hardware,Low,In Progress,2023-08-15 16:30:23,,Sample issue 350,This is a description for ticket 350.
+TKT00351,Tom Clark,Bob,Other,Low,On Hold,2023-07-03 20:15:08,,Sample issue 351,This is a description for ticket 351.
+TKT00352,Tom Clark,Charlie,Network,Low,Closed,2023-08-14 19:29:06,,Sample issue 352,This is a description for ticket 352.
+TKT00353,Tom Clark,Charlie,Other,High,In Progress,2023-10-15 19:06:11,,Sample issue 353,This is a description for ticket 353.
+TKT00354,John Doe,Diana,Software,High,Open,2023-09-29 22:07:43,2023-10-08 14:07:43,Sample issue 354,This is a description for ticket 354.
+TKT00355,Jane Smith,Frank,Hardware,Medium,Resolved,2023-05-27 00:59:36,,Sample issue 355,This is a description for ticket 355.
+TKT00356,John Doe,Alice,Network,High,Closed,2023-03-06 23:04:03,2023-03-08 05:04:03,Sample issue 356,This is a description for ticket 356.
+TKT00357,Linda White,Alice,Hardware,Medium,Closed,2023-07-22 15:39:34,2023-07-29 22:39:34,Sample issue 357,This is a description for ticket 357.
+TKT00358,Mike Brown,Bob,Software,Low,Open,2023-03-16 14:34:41,,Sample issue 358,This is a description for ticket 358.
+TKT00359,Tom Clark,Alice,Access,Critical,Open,2023-09-06 17:20:48,2023-09-08 08:20:48,Sample issue 359,This is a description for ticket 359.
+TKT00360,Tom Clark,Bob,Software,Critical,Resolved,2023-05-10 05:48:43,,Sample issue 360,This is a description for ticket 360.
+TKT00361,Linda White,Frank,Access,Medium,On Hold,2023-03-02 02:40:43,2023-03-04 06:40:43,Sample issue 361,This is a description for ticket 361.
+TKT00362,Jane Smith,Alice,Hardware,Critical,On Hold,2023-10-29 09:07:34,,Sample issue 362,This is a description for ticket 362.
+TKT00363,Jane Smith,Bob,Access,High,Closed,2023-12-18 17:36:10,,Sample issue 363,This is a description for ticket 363.
+TKT00364,Jane Smith,Bob,Access,High,On Hold,2024-02-17 21:21:38,2024-02-20 04:21:38,Sample issue 364,This is a description for ticket 364.
+TKT00365,Jane Smith,Charlie,Hardware,High,Resolved,2023-11-16 16:54:08,2023-11-25 04:54:08,Sample issue 365,This is a description for ticket 365.
+TKT00366,Jane Smith,Frank,Network,Low,On Hold,2024-01-30 06:24:08,2024-02-05 08:24:08,Sample issue 366,This is a description for ticket 366.
+TKT00367,Tom Clark,Bob,Other,Medium,Open,2023-09-19 07:07:40,2023-09-24 05:07:40,Sample issue 367,This is a description for ticket 367.
+TKT00368,Mike Brown,Bob,Network,Critical,Resolved,2023-02-12 04:24:31,2023-02-13 03:24:31,Sample issue 368,This is a description for ticket 368.
+TKT00369,Sara Lee,Charlie,Hardware,Medium,Resolved,2023-01-20 07:18:46,2023-01-27 16:18:46,Sample issue 369,This is a description for ticket 369.
+TKT00370,Tom Clark,Frank,Other,Critical,On Hold,2023-11-11 17:16:27,2023-11-20 15:16:27,Sample issue 370,This is a description for ticket 370.
+TKT00371,Tom Clark,Diana,Hardware,Medium,Closed,2023-05-02 23:31:47,,Sample issue 371,This is a description for ticket 371.
+TKT00372,Jane Smith,Charlie,Network,Low,Closed,2023-08-07 12:00:46,2023-08-17 07:00:46,Sample issue 372,This is a description for ticket 372.
+TKT00373,Sara Lee,Frank,Access,High,On Hold,2024-05-27 07:22:43,,Sample issue 373,This is a description for ticket 373.
+TKT00374,Mike Brown,Alice,Hardware,High,Open,2023-04-14 21:16:47,,Sample issue 374,This is a description for ticket 374.
+TKT00375,Linda White,Bob,Hardware,High,On Hold,2023-06-05 11:17:10,,Sample issue 375,This is a description for ticket 375.
+TKT00376,Mike Brown,Alice,Network,High,In Progress,2023-05-30 13:53:20,2023-06-06 10:53:20,Sample issue 376,This is a description for ticket 376.
+TKT00377,John Doe,Alice,Network,Low,Resolved,2023-01-22 15:43:38,,Sample issue 377,This is a description for ticket 377.
+TKT00378,Jane Smith,Diana,Network,Low,On Hold,2023-09-01 15:30:53,2023-09-10 16:30:53,Sample issue 378,This is a description for ticket 378.
+TKT00379,Sara Lee,Diana,Other,High,Resolved,2023-12-29 07:52:12,,Sample issue 379,This is a description for ticket 379.
+TKT00380,Sara Lee,Diana,Hardware,High,Open,2024-05-19 20:02:05,,Sample issue 380,This is a description for ticket 380.
+TKT00381,Mike Brown,Diana,Hardware,High,On Hold,2023-11-28 08:57:49,,Sample issue 381,This is a description for ticket 381.
+TKT00382,Jane Smith,Bob,Software,Critical,Resolved,2023-02-22 12:53:15,,Sample issue 382,This is a description for ticket 382.
+TKT00383,Jane Smith,Frank,Other,Critical,Resolved,2024-02-18 22:49:16,2024-02-19 00:49:16,Sample issue 383,This is a description for ticket 383.
+TKT00384,Mike Brown,Diana,Software,High,On Hold,2023-12-25 02:36:35,2023-12-28 11:36:35,Sample issue 384,This is a description for ticket 384.
+TKT00385,Tom Clark,Alice,Hardware,Critical,Closed,2023-01-24 14:18:14,,Sample issue 385,This is a description for ticket 385.
+TKT00386,Sara Lee,Charlie,Software,Medium,In Progress,2023-09-25 05:23:48,,Sample issue 386,This is a description for ticket 386.
+TKT00387,John Doe,Eve,Access,Critical,Open,2024-01-05 17:22:29,2024-01-12 20:22:29,Sample issue 387,This is a description for ticket 387.
+TKT00388,Jane Smith,Alice,Access,Medium,Resolved,2023-11-22 12:56:51,,Sample issue 388,This is a description for ticket 388.
+TKT00389,John Doe,Bob,Other,Critical,In Progress,2024-04-21 22:28:27,,Sample issue 389,This is a description for ticket 389.
+TKT00390,John Doe,Charlie,Access,High,Resolved,2023-07-16 16:11:54,,Sample issue 390,This is a description for ticket 390.
+TKT00391,Tom Clark,Eve,Access,Medium,On Hold,2023-09-21 03:05:02,2023-09-30 22:05:02,Sample issue 391,This is a description for ticket 391.
+TKT00392,Mike Brown,Bob,Software,Medium,On Hold,2023-01-07 22:18:30,,Sample issue 392,This is a description for ticket 392.
+TKT00393,John Doe,Eve,Other,High,Resolved,2024-05-08 18:17:19,2024-05-14 02:17:19,Sample issue 393,This is a description for ticket 393.
+TKT00394,Linda White,Frank,Other,Critical,In Progress,2024-02-08 04:46:21,,Sample issue 394,This is a description for ticket 394.
+TKT00395,Jane Smith,Bob,Software,High,Resolved,2023-05-14 22:14:48,2023-05-22 11:14:48,Sample issue 395,This is a description for ticket 395.
+TKT00396,Tom Clark,Diana,Hardware,High,On Hold,2023-11-23 17:53:25,,Sample issue 396,This is a description for ticket 396.
+TKT00397,Jane Smith,Frank,Hardware,Critical,Resolved,2023-02-14 00:52:05,2023-02-19 05:52:05,Sample issue 397,This is a description for ticket 397.
+TKT00398,Jane Smith,Bob,Hardware,Critical,Resolved,2023-11-18 11:16:48,2023-11-22 12:16:48,Sample issue 398,This is a description for ticket 398.
+TKT00399,Jane Smith,Eve,Access,Low,On Hold,2023-04-22 05:51:06,2023-04-27 10:51:06,Sample issue 399,This is a description for ticket 399.
+TKT00400,Mike Brown,Frank,Hardware,High,Resolved,2023-07-29 14:41:32,2023-08-08 12:41:32,Sample issue 400,This is a description for ticket 400.
+TKT00401,Sara Lee,Bob,Other,Low,Resolved,2023-09-25 02:27:43,,Sample issue 401,This is a description for ticket 401.
+TKT00402,Jane Smith,Eve,Network,Low,Open,2023-05-09 17:12:21,,Sample issue 402,This is a description for ticket 402.
+TKT00403,Mike Brown,Eve,Hardware,Critical,Open,2023-05-08 13:05:24,,Sample issue 403,This is a description for ticket 403.
+TKT00404,Linda White,Bob,Software,High,Open,2023-06-04 18:23:29,2023-06-14 04:23:29,Sample issue 404,This is a description for ticket 404.
+TKT00405,Tom Clark,Frank,Hardware,Low,On Hold,2023-11-12 15:37:56,,Sample issue 405,This is a description for ticket 405.
+TKT00406,Jane Smith,Charlie,Hardware,Critical,Closed,2023-02-28 02:31:33,2023-03-01 06:31:33,Sample issue 406,This is a description for ticket 406.
+TKT00407,Linda White,Alice,Hardware,Low,Closed,2024-02-03 16:11:59,2024-02-10 10:11:59,Sample issue 407,This is a description for ticket 407.
+TKT00408,Sara Lee,Frank,Access,Low,On Hold,2023-03-07 05:42:28,2023-03-07 06:42:28,Sample issue 408,This is a description for ticket 408.
+TKT00409,Mike Brown,Frank,Software,Low,Resolved,2024-04-07 00:30:38,2024-04-08 05:30:38,Sample issue 409,This is a description for ticket 409.
+TKT00410,John Doe,Diana,Hardware,High,In Progress,2023-04-23 05:38:12,,Sample issue 410,This is a description for ticket 410.
+TKT00411,Linda White,Eve,Network,Medium,Resolved,2023-03-24 10:38:50,2023-04-02 00:38:50,Sample issue 411,This is a description for ticket 411.
+TKT00412,John Doe,Alice,Hardware,High,On Hold,2024-01-11 02:51:12,,Sample issue 412,This is a description for ticket 412.
+TKT00413,Mike Brown,Alice,Hardware,Critical,Resolved,2023-11-02 18:52:44,,Sample issue 413,This is a description for ticket 413.
+TKT00414,Jane Smith,Alice,Software,Medium,On Hold,2024-02-17 04:25:23,2024-02-22 13:25:23,Sample issue 414,This is a description for ticket 414.
+TKT00415,Jane Smith,Frank,Other,High,Closed,2023-04-23 15:24:49,2023-04-26 02:24:49,Sample issue 415,This is a description for ticket 415.
+TKT00416,John Doe,Frank,Hardware,High,Resolved,2023-09-18 14:49:00,2023-09-21 05:49:00,Sample issue 416,This is a description for ticket 416.
+TKT00417,Linda White,Alice,Access,High,Resolved,2023-09-25 04:20:20,,Sample issue 417,This is a description for ticket 417.
+TKT00418,Jane Smith,Alice,Access,Critical,Closed,2023-07-07 05:55:39,,Sample issue 418,This is a description for ticket 418.
+TKT00419,John Doe,Charlie,Software,Medium,Open,2023-06-05 04:56:14,2023-06-14 10:56:14,Sample issue 419,This is a description for ticket 419.
+TKT00420,John Doe,Diana,Software,Low,Resolved,2023-05-24 22:47:54,2023-05-30 11:47:54,Sample issue 420,This is a description for ticket 420.
+TKT00421,Jane Smith,Bob,Hardware,Low,In Progress,2023-02-28 05:35:23,2023-03-09 05:35:23,Sample issue 421,This is a description for ticket 421.
+TKT00422,Tom Clark,Frank,Other,Low,Open,2023-02-25 04:34:52,2023-02-26 11:34:52,Sample issue 422,This is a description for ticket 422.
+TKT00423,Mike Brown,Frank,Other,Medium,On Hold,2023-11-09 15:03:05,2023-11-11 21:03:05,Sample issue 423,This is a description for ticket 423.
+TKT00424,Linda White,Charlie,Other,High,Resolved,2023-04-19 00:11:33,2023-04-21 00:11:33,Sample issue 424,This is a description for ticket 424.
+TKT00425,Tom Clark,Bob,Other,Medium,Closed,2023-01-21 14:07:14,,Sample issue 425,This is a description for ticket 425.
+TKT00426,Linda White,Charlie,Other,Low,Closed,2023-09-18 06:33:01,,Sample issue 426,This is a description for ticket 426.
+TKT00427,John Doe,Alice,Network,Medium,On Hold,2023-12-24 19:49:51,,Sample issue 427,This is a description for ticket 427.
+TKT00428,John Doe,Frank,Software,Low,Closed,2023-01-16 17:55:59,2023-01-20 01:55:59,Sample issue 428,This is a description for ticket 428.
+TKT00429,Linda White,Bob,Hardware,Low,Open,2024-05-17 00:13:32,,Sample issue 429,This is a description for ticket 429.
+TKT00430,Mike Brown,Charlie,Hardware,Medium,In Progress,2024-05-20 16:31:07,,Sample issue 430,This is a description for ticket 430.
+TKT00431,Mike Brown,Diana,Software,Low,Resolved,2023-06-18 10:53:01,,Sample issue 431,This is a description for ticket 431.
+TKT00432,John Doe,Bob,Other,Medium,On Hold,2023-02-22 20:57:38,2023-02-26 20:57:38,Sample issue 432,This is a description for ticket 432.
+TKT00433,Tom Clark,Bob,Hardware,Critical,Resolved,2023-12-25 12:58:50,2023-12-25 19:58:50,Sample issue 433,This is a description for ticket 433.
+TKT00434,Mike Brown,Alice,Network,Low,In Progress,2023-10-19 12:41:10,,Sample issue 434,This is a description for ticket 434.
+TKT00435,Jane Smith,Bob,Software,Critical,Open,2023-05-22 10:25:22,,Sample issue 435,This is a description for ticket 435.
+TKT00436,Jane Smith,Frank,Software,Medium,Closed,2023-04-29 06:47:46,2023-05-03 19:47:46,Sample issue 436,This is a description for ticket 436.
+TKT00437,Tom Clark,Eve,Software,High,On Hold,2023-07-19 07:29:04,2023-07-27 08:29:04,Sample issue 437,This is a description for ticket 437.
+TKT00438,Linda White,Diana,Access,Medium,Resolved,2023-04-21 05:26:37,2023-04-29 10:26:37,Sample issue 438,This is a description for ticket 438.
+TKT00439,Sara Lee,Frank,Other,Medium,In Progress,2024-02-24 21:30:33,2024-02-25 03:30:33,Sample issue 439,This is a description for ticket 439.
+TKT00440,Linda White,Alice,Other,Low,On Hold,2024-05-14 10:31:27,2024-05-19 11:31:27,Sample issue 440,This is a description for ticket 440.
+TKT00441,Mike Brown,Bob,Access,Medium,Closed,2023-10-12 01:46:50,2023-10-21 09:46:50,Sample issue 441,This is a description for ticket 441.
+TKT00442,John Doe,Frank,Network,Critical,On Hold,2023-07-11 03:19:41,,Sample issue 442,This is a description for ticket 442.
+TKT00443,John Doe,Charlie,Access,Low,Open,2023-02-18 12:54:55,,Sample issue 443,This is a description for ticket 443.
+TKT00444,Tom Clark,Alice,Hardware,Critical,Closed,2023-12-28 11:54:21,2024-01-05 01:54:21,Sample issue 444,This is a description for ticket 444.
+TKT00445,Mike Brown,Alice,Hardware,High,Open,2023-08-18 19:38:02,,Sample issue 445,This is a description for ticket 445.
+TKT00446,Mike Brown,Bob,Access,Critical,Resolved,2023-03-08 00:29:14,2023-03-09 12:29:14,Sample issue 446,This is a description for ticket 446.
+TKT00447,Mike Brown,Charlie,Access,Medium,On Hold,2024-05-22 03:53:41,,Sample issue 447,This is a description for ticket 447.
+TKT00448,Sara Lee,Bob,Access,Low,Resolved,2023-04-04 05:29:46,2023-04-10 14:29:46,Sample issue 448,This is a description for ticket 448.
+TKT00449,Linda White,Bob,Network,Critical,Resolved,2023-09-16 11:07:32,,Sample issue 449,This is a description for ticket 449.
+TKT00450,Linda White,Eve,Hardware,Critical,On Hold,2024-01-09 22:56:46,2024-01-17 21:56:46,Sample issue 450,This is a description for ticket 450.
+TKT00451,Linda White,Diana,Access,Critical,In Progress,2023-05-16 06:13:53,2023-05-22 13:13:53,Sample issue 451,This is a description for ticket 451.
+TKT00452,Linda White,Charlie,Other,Critical,On Hold,2024-03-01 08:42:36,2024-03-08 11:42:36,Sample issue 452,This is a description for ticket 452.
+TKT00453,Sara Lee,Diana,Software,High,Resolved,2024-01-05 13:45:40,2024-01-07 10:45:40,Sample issue 453,This is a description for ticket 453.
+TKT00454,Jane Smith,Charlie,Access,Critical,Open,2024-02-27 21:42:08,2024-03-07 05:42:08,Sample issue 454,This is a description for ticket 454.
+TKT00455,Jane Smith,Bob,Hardware,Low,Open,2024-04-18 19:34:59,,Sample issue 455,This is a description for ticket 455.
+TKT00456,John Doe,Charlie,Access,Critical,Resolved,2023-06-18 07:17:18,2023-06-20 21:17:18,Sample issue 456,This is a description for ticket 456.
+TKT00457,Sara Lee,Charlie,Network,Low,Closed,2024-01-19 09:10:55,,Sample issue 457,This is a description for ticket 457.
+TKT00458,John Doe,Diana,Network,High,On Hold,2023-01-31 20:48:36,,Sample issue 458,This is a description for ticket 458.
+TKT00459,Tom Clark,Bob,Hardware,Medium,On Hold,2024-02-11 13:24:11,,Sample issue 459,This is a description for ticket 459.
+TKT00460,Sara Lee,Eve,Software,Critical,In Progress,2024-03-22 19:27:13,,Sample issue 460,This is a description for ticket 460.
+TKT00461,John Doe,Diana,Network,Critical,Closed,2023-11-29 08:53:52,2023-12-06 11:53:52,Sample issue 461,This is a description for ticket 461.
+TKT00462,John Doe,Bob,Network,Critical,In Progress,2023-12-22 13:42:15,2023-12-31 23:42:15,Sample issue 462,This is a description for ticket 462.
+TKT00463,Tom Clark,Bob,Access,Medium,On Hold,2023-06-11 21:19:06,2023-06-18 03:19:06,Sample issue 463,This is a description for ticket 463.
+TKT00464,Mike Brown,Charlie,Software,High,Closed,2023-01-31 01:53:58,,Sample issue 464,This is a description for ticket 464.
+TKT00465,Tom Clark,Eve,Software,Medium,On Hold,2023-03-20 03:52:06,,Sample issue 465,This is a description for ticket 465.
+TKT00466,John Doe,Frank,Other,High,On Hold,2023-12-19 10:48:18,2023-12-24 07:48:18,Sample issue 466,This is a description for ticket 466.
+TKT00467,Linda White,Bob,Hardware,High,Resolved,2023-02-09 10:10:43,2023-02-16 08:10:43,Sample issue 467,This is a description for ticket 467.
+TKT00468,Mike Brown,Charlie,Access,Critical,Open,2023-02-07 08:24:59,,Sample issue 468,This is a description for ticket 468.
+TKT00469,Jane Smith,Diana,Software,Medium,Resolved,2023-06-19 13:03:02,,Sample issue 469,This is a description for ticket 469.
+TKT00470,Jane Smith,Diana,Network,Low,Closed,2024-03-22 09:04:42,2024-04-01 01:04:42,Sample issue 470,This is a description for ticket 470.
+TKT00471,Mike Brown,Bob,Network,Critical,Open,2024-02-14 00:21:50,,Sample issue 471,This is a description for ticket 471.
+TKT00472,Linda White,Diana,Software,Medium,Resolved,2023-11-29 18:09:08,,Sample issue 472,This is a description for ticket 472.
+TKT00473,John Doe,Eve,Network,High,In Progress,2024-03-23 04:50:23,2024-03-23 12:50:23,Sample issue 473,This is a description for ticket 473.
+TKT00474,Mike Brown,Frank,Network,Low,Closed,2023-08-07 06:48:38,,Sample issue 474,This is a description for ticket 474.
+TKT00475,Linda White,Eve,Access,Critical,Closed,2023-08-27 08:07:17,,Sample issue 475,This is a description for ticket 475.
+TKT00476,Linda White,Diana,Other,Medium,On Hold,2023-02-10 12:26:12,,Sample issue 476,This is a description for ticket 476.
+TKT00477,Jane Smith,Alice,Network,High,In Progress,2023-10-20 02:41:10,2023-10-26 04:41:10,Sample issue 477,This is a description for ticket 477.
+TKT00478,Tom Clark,Alice,Software,Critical,Open,2023-12-10 09:17:11,,Sample issue 478,This is a description for ticket 478.
+TKT00479,Mike Brown,Charlie,Access,High,Closed,2024-03-07 14:15:30,,Sample issue 479,This is a description for ticket 479.
+TKT00480,Tom Clark,Diana,Software,Low,Resolved,2023-02-06 11:51:33,,Sample issue 480,This is a description for ticket 480.
+TKT00481,Sara Lee,Bob,Other,Low,Resolved,2023-10-12 00:04:46,,Sample issue 481,This is a description for ticket 481.
+TKT00482,John Doe,Eve,Hardware,Low,Closed,2023-06-13 04:48:08,2023-06-22 12:48:08,Sample issue 482,This is a description for ticket 482.
+TKT00483,Linda White,Charlie,Access,Medium,Closed,2023-10-01 03:39:10,2023-10-02 11:39:10,Sample issue 483,This is a description for ticket 483.
+TKT00484,Sara Lee,Bob,Hardware,Medium,On Hold,2023-05-26 10:50:05,,Sample issue 484,This is a description for ticket 484.
+TKT00485,Tom Clark,Bob,Access,Low,On Hold,2023-05-26 02:54:37,,Sample issue 485,This is a description for ticket 485.
+TKT00486,Jane Smith,Bob,Access,Critical,Resolved,2024-05-26 13:24:25,2024-05-28 23:24:25,Sample issue 486,This is a description for ticket 486.
+TKT00487,John Doe,Eve,Access,High,Closed,2023-06-12 12:01:26,,Sample issue 487,This is a description for ticket 487.
+TKT00488,Sara Lee,Diana,Network,Low,Resolved,2024-03-13 20:31:44,2024-03-18 03:31:44,Sample issue 488,This is a description for ticket 488.
+TKT00489,John Doe,Diana,Other,Medium,Closed,2024-04-28 14:09:58,2024-05-07 13:09:58,Sample issue 489,This is a description for ticket 489.
+TKT00490,Mike Brown,Bob,Other,High,Closed,2023-02-21 03:52:00,,Sample issue 490,This is a description for ticket 490.
+TKT00491,Linda White,Diana,Hardware,Medium,In Progress,2023-07-10 05:30:42,,Sample issue 491,This is a description for ticket 491.
+TKT00492,Tom Clark,Diana,Access,Medium,Resolved,2024-02-17 14:47:05,2024-02-26 13:47:05,Sample issue 492,This is a description for ticket 492.
+TKT00493,Mike Brown,Eve,Hardware,High,On Hold,2024-03-09 13:28:56,2024-03-11 02:28:56,Sample issue 493,This is a description for ticket 493.
+TKT00494,John Doe,Frank,Hardware,Low,Open,2023-09-21 15:54:33,2023-09-25 08:54:33,Sample issue 494,This is a description for ticket 494.
+TKT00495,John Doe,Frank,Network,Critical,Resolved,2024-03-07 05:36:01,,Sample issue 495,This is a description for ticket 495.
+TKT00496,Linda White,Diana,Access,Low,In Progress,2023-02-13 09:37:28,,Sample issue 496,This is a description for ticket 496.
+TKT00497,Linda White,Bob,Hardware,Medium,Resolved,2024-04-07 20:57:28,2024-04-10 22:57:28,Sample issue 497,This is a description for ticket 497.
+TKT00498,Tom Clark,Eve,Hardware,Medium,Closed,2023-12-30 11:31:55,,Sample issue 498,This is a description for ticket 498.
+TKT00499,Tom Clark,Alice,Software,Medium,Resolved,2024-01-19 15:22:20,2024-01-19 22:22:20,Sample issue 499,This is a description for ticket 499.
+TKT00500,Mike Brown,Eve,Other,Critical,Resolved,2024-03-20 12:10:16,,Sample issue 500,This is a description for ticket 500.
+TKT00501,Tom Clark,Alice,Hardware,Medium,In Progress,2023-03-22 13:45:43,,Sample issue 501,This is a description for ticket 501.
+TKT00502,Sara Lee,Charlie,Access,Low,Resolved,2023-10-11 23:24:44,2023-10-18 12:24:44,Sample issue 502,This is a description for ticket 502.
+TKT00503,Tom Clark,Alice,Network,High,On Hold,2023-10-12 18:55:56,,Sample issue 503,This is a description for ticket 503.
+TKT00504,Mike Brown,Alice,Access,Low,In Progress,2023-03-03 23:11:37,,Sample issue 504,This is a description for ticket 504.
+TKT00505,Sara Lee,Frank,Software,High,On Hold,2023-11-17 15:23:06,2023-11-25 02:23:06,Sample issue 505,This is a description for ticket 505.
+TKT00506,Sara Lee,Eve,Software,High,Open,2023-03-08 20:49:50,2023-03-15 15:49:50,Sample issue 506,This is a description for ticket 506.
+TKT00507,Tom Clark,Frank,Software,Critical,Resolved,2024-03-10 13:49:26,,Sample issue 507,This is a description for ticket 507.
+TKT00508,Jane Smith,Eve,Software,Medium,Open,2023-04-16 10:29:44,,Sample issue 508,This is a description for ticket 508.
+TKT00509,Mike Brown,Charlie,Other,High,On Hold,2023-05-16 11:20:07,,Sample issue 509,This is a description for ticket 509.
+TKT00510,Jane Smith,Frank,Hardware,High,On Hold,2023-11-12 17:18:43,2023-11-19 20:18:43,Sample issue 510,This is a description for ticket 510.
+TKT00511,John Doe,Diana,Other,Critical,Resolved,2023-01-23 12:27:34,,Sample issue 511,This is a description for ticket 511.
+TKT00512,Linda White,Diana,Other,Low,In Progress,2023-06-17 04:24:13,,Sample issue 512,This is a description for ticket 512.
+TKT00513,Linda White,Diana,Software,Medium,In Progress,2023-10-02 03:29:01,2023-10-05 19:29:01,Sample issue 513,This is a description for ticket 513.
+TKT00514,Sara Lee,Eve,Software,Critical,On Hold,2023-04-17 04:19:12,,Sample issue 514,This is a description for ticket 514.
+TKT00515,Sara Lee,Bob,Software,High,Open,2023-04-08 15:22:25,2023-04-14 01:22:25,Sample issue 515,This is a description for ticket 515.
+TKT00516,Tom Clark,Bob,Access,High,In Progress,2023-11-30 22:28:25,,Sample issue 516,This is a description for ticket 516.
+TKT00517,Sara Lee,Frank,Software,Medium,Closed,2023-11-13 16:43:01,2023-11-14 23:43:01,Sample issue 517,This is a description for ticket 517.
+TKT00518,Linda White,Charlie,Access,Medium,Open,2024-03-09 16:30:19,2024-03-12 09:30:19,Sample issue 518,This is a description for ticket 518.
+TKT00519,Linda White,Charlie,Other,Critical,On Hold,2023-02-25 01:48:19,2023-02-27 20:48:19,Sample issue 519,This is a description for ticket 519.
+TKT00520,Sara Lee,Diana,Access,Low,Closed,2023-01-15 22:24:48,,Sample issue 520,This is a description for ticket 520.
+TKT00521,Mike Brown,Alice,Network,Critical,In Progress,2023-08-30 17:02:50,2023-09-07 06:02:50,Sample issue 521,This is a description for ticket 521.
+TKT00522,Mike Brown,Charlie,Other,Low,On Hold,2024-04-14 07:14:59,2024-04-23 02:14:59,Sample issue 522,This is a description for ticket 522.
+TKT00523,Mike Brown,Diana,Access,High,Open,2023-03-25 03:39:56,2023-03-26 06:39:56,Sample issue 523,This is a description for ticket 523.
+TKT00524,Sara Lee,Diana,Hardware,Critical,Open,2024-03-30 21:30:11,2024-03-31 16:30:11,Sample issue 524,This is a description for ticket 524.
+TKT00525,John Doe,Eve,Access,High,Open,2024-02-25 23:23:57,,Sample issue 525,This is a description for ticket 525.
+TKT00526,Mike Brown,Frank,Network,Low,Closed,2023-12-16 10:25:36,2023-12-22 16:25:36,Sample issue 526,This is a description for ticket 526.
+TKT00527,Linda White,Diana,Network,Critical,Open,2024-04-16 13:39:09,2024-04-20 05:39:09,Sample issue 527,This is a description for ticket 527.
+TKT00528,Linda White,Eve,Other,Low,On Hold,2023-08-06 19:42:07,2023-08-15 05:42:07,Sample issue 528,This is a description for ticket 528.
+TKT00529,John Doe,Diana,Hardware,High,Open,2023-12-20 16:11:25,2023-12-27 16:11:25,Sample issue 529,This is a description for ticket 529.
+TKT00530,Sara Lee,Diana,Hardware,Medium,Open,2023-06-11 02:08:09,2023-06-19 02:08:09,Sample issue 530,This is a description for ticket 530.
+TKT00531,Mike Brown,Diana,Network,Medium,Resolved,2023-05-30 13:19:22,2023-06-06 02:19:22,Sample issue 531,This is a description for ticket 531.
+TKT00532,Sara Lee,Frank,Hardware,Low,Open,2024-03-19 21:33:03,2024-03-21 15:33:03,Sample issue 532,This is a description for ticket 532.
+TKT00533,Mike Brown,Frank,Access,Medium,On Hold,2023-04-29 09:43:27,,Sample issue 533,This is a description for ticket 533.
+TKT00534,Sara Lee,Charlie,Hardware,Low,Resolved,2023-09-07 04:20:17,2023-09-14 13:20:17,Sample issue 534,This is a description for ticket 534.
+TKT00535,Sara Lee,Alice,Hardware,Low,Resolved,2023-08-05 13:51:45,,Sample issue 535,This is a description for ticket 535.
+TKT00536,Jane Smith,Bob,Software,Low,Resolved,2023-10-14 00:10:49,2023-10-19 18:10:49,Sample issue 536,This is a description for ticket 536.
+TKT00537,Linda White,Bob,Other,Low,Open,2023-09-07 06:44:04,,Sample issue 537,This is a description for ticket 537.
+TKT00538,Jane Smith,Alice,Network,Low,In Progress,2023-04-03 23:36:10,2023-04-04 23:36:10,Sample issue 538,This is a description for ticket 538.
+TKT00539,Tom Clark,Charlie,Software,Medium,Closed,2023-07-03 00:11:11,2023-07-12 15:11:11,Sample issue 539,This is a description for ticket 539.
+TKT00540,Mike Brown,Charlie,Network,High,On Hold,2023-11-23 03:28:19,2023-12-02 04:28:19,Sample issue 540,This is a description for ticket 540.
+TKT00541,Jane Smith,Bob,Software,High,On Hold,2024-03-29 15:08:22,2024-04-02 14:08:22,Sample issue 541,This is a description for ticket 541.
+TKT00542,Linda White,Charlie,Hardware,High,Resolved,2024-02-17 17:24:06,2024-02-21 02:24:06,Sample issue 542,This is a description for ticket 542.
+TKT00543,Mike Brown,Frank,Other,Critical,In Progress,2023-12-08 03:22:05,2023-12-09 16:22:05,Sample issue 543,This is a description for ticket 543.
+TKT00544,Tom Clark,Bob,Hardware,Medium,Resolved,2024-01-10 04:20:03,,Sample issue 544,This is a description for ticket 544.
+TKT00545,Sara Lee,Bob,Other,Critical,In Progress,2023-05-07 05:45:26,,Sample issue 545,This is a description for ticket 545.
+TKT00546,Sara Lee,Charlie,Network,Critical,Open,2024-05-31 18:19:30,2024-06-04 22:19:30,Sample issue 546,This is a description for ticket 546.
+TKT00547,Mike Brown,Charlie,Hardware,Critical,Resolved,2024-03-18 00:47:26,2024-03-26 21:47:26,Sample issue 547,This is a description for ticket 547.
+TKT00548,Tom Clark,Alice,Hardware,Low,In Progress,2023-12-18 09:45:09,,Sample issue 548,This is a description for ticket 548.
+TKT00549,Jane Smith,Bob,Access,Critical,Resolved,2023-06-21 00:14:52,2023-06-28 19:14:52,Sample issue 549,This is a description for ticket 549.
+TKT00550,John Doe,Alice,Network,Medium,In Progress,2024-05-26 13:42:12,,Sample issue 550,This is a description for ticket 550.
+TKT00551,John Doe,Frank,Access,High,Resolved,2024-05-13 03:41:59,,Sample issue 551,This is a description for ticket 551.
+TKT00552,Jane Smith,Diana,Software,High,Open,2024-02-16 07:44:28,2024-02-23 09:44:28,Sample issue 552,This is a description for ticket 552.
+TKT00553,Mike Brown,Charlie,Other,Critical,Open,2023-12-03 06:41:51,,Sample issue 553,This is a description for ticket 553.
+TKT00554,Linda White,Eve,Network,Critical,On Hold,2023-02-24 14:36:54,,Sample issue 554,This is a description for ticket 554.
+TKT00555,Sara Lee,Frank,Hardware,Critical,Closed,2024-03-12 22:22:58,2024-03-20 04:22:58,Sample issue 555,This is a description for ticket 555.
+TKT00556,Linda White,Charlie,Hardware,Low,Resolved,2023-10-13 03:40:24,2023-10-17 05:40:24,Sample issue 556,This is a description for ticket 556.
+TKT00557,Tom Clark,Diana,Network,Low,On Hold,2024-03-02 07:01:39,2024-03-03 23:01:39,Sample issue 557,This is a description for ticket 557.
+TKT00558,Sara Lee,Diana,Software,Medium,Open,2024-04-29 23:22:00,2024-05-05 17:22:00,Sample issue 558,This is a description for ticket 558.
+TKT00559,Sara Lee,Diana,Access,Low,Open,2023-11-11 10:19:30,,Sample issue 559,This is a description for ticket 559.
+TKT00560,Sara Lee,Charlie,Software,Medium,Closed,2023-01-28 12:16:43,2023-02-05 20:16:43,Sample issue 560,This is a description for ticket 560.
+TKT00561,Sara Lee,Alice,Hardware,Medium,Resolved,2023-12-26 23:52:27,,Sample issue 561,This is a description for ticket 561.
+TKT00562,Mike Brown,Bob,Hardware,Medium,Resolved,2024-01-12 22:03:33,,Sample issue 562,This is a description for ticket 562.
+TKT00563,Mike Brown,Bob,Other,Low,Resolved,2024-04-06 15:27:57,,Sample issue 563,This is a description for ticket 563.
+TKT00564,Linda White,Charlie,Hardware,Low,Closed,2023-09-04 03:32:59,,Sample issue 564,This is a description for ticket 564.
+TKT00565,John Doe,Diana,Hardware,Low,On Hold,2023-02-16 19:22:47,2023-02-18 20:22:47,Sample issue 565,This is a description for ticket 565.
+TKT00566,John Doe,Charlie,Software,Critical,Closed,2024-03-31 03:36:18,,Sample issue 566,This is a description for ticket 566.
+TKT00567,Mike Brown,Alice,Network,Medium,Open,2023-03-26 06:13:43,,Sample issue 567,This is a description for ticket 567.
+TKT00568,Sara Lee,Alice,Software,High,Resolved,2024-04-22 12:46:36,,Sample issue 568,This is a description for ticket 568.
+TKT00569,Sara Lee,Alice,Network,Low,In Progress,2023-04-30 12:46:56,2023-05-05 01:46:56,Sample issue 569,This is a description for ticket 569.
+TKT00570,Sara Lee,Diana,Other,High,Resolved,2023-11-24 06:47:27,,Sample issue 570,This is a description for ticket 570.
+TKT00571,Mike Brown,Alice,Hardware,Critical,Resolved,2023-01-30 18:55:46,2023-02-05 08:55:46,Sample issue 571,This is a description for ticket 571.
+TKT00572,John Doe,Alice,Hardware,High,In Progress,2023-10-28 17:56:34,2023-11-02 13:56:34,Sample issue 572,This is a description for ticket 572.
+TKT00573,Mike Brown,Eve,Software,Low,On Hold,2023-11-26 12:33:43,2023-12-05 06:33:43,Sample issue 573,This is a description for ticket 573.
+TKT00574,Mike Brown,Eve,Network,Critical,Closed,2023-01-03 00:15:14,2023-01-03 06:15:14,Sample issue 574,This is a description for ticket 574.
+TKT00575,Linda White,Alice,Other,High,Resolved,2023-12-23 22:37:18,,Sample issue 575,This is a description for ticket 575.
+TKT00576,Linda White,Alice,Other,Low,On Hold,2024-01-27 23:03:03,,Sample issue 576,This is a description for ticket 576.
+TKT00577,Sara Lee,Eve,Access,High,Closed,2023-07-25 12:22:52,,Sample issue 577,This is a description for ticket 577.
+TKT00578,Tom Clark,Alice,Network,Low,In Progress,2024-03-17 02:47:40,2024-03-17 17:47:40,Sample issue 578,This is a description for ticket 578.
+TKT00579,Mike Brown,Alice,Access,Critical,On Hold,2024-02-01 00:56:53,,Sample issue 579,This is a description for ticket 579.
+TKT00580,Mike Brown,Frank,Network,Critical,Open,2023-09-11 05:20:03,,Sample issue 580,This is a description for ticket 580.
+TKT00581,Sara Lee,Diana,Access,High,In Progress,2023-05-24 18:49:52,,Sample issue 581,This is a description for ticket 581.
+TKT00582,Sara Lee,Bob,Network,Low,On Hold,2023-05-25 02:18:37,2023-05-27 00:18:37,Sample issue 582,This is a description for ticket 582.
+TKT00583,Linda White,Eve,Other,Medium,Resolved,2024-02-29 10:00:01,,Sample issue 583,This is a description for ticket 583.
+TKT00584,Mike Brown,Alice,Other,Critical,In Progress,2023-09-12 16:44:53,2023-09-18 22:44:53,Sample issue 584,This is a description for ticket 584.
+TKT00585,Jane Smith,Alice,Network,Low,Open,2023-04-15 17:14:57,2023-04-24 23:14:57,Sample issue 585,This is a description for ticket 585.
+TKT00586,Mike Brown,Charlie,Hardware,Critical,In Progress,2024-04-22 14:53:01,2024-04-22 19:53:01,Sample issue 586,This is a description for ticket 586.
+TKT00587,John Doe,Alice,Hardware,High,In Progress,2023-09-05 08:52:50,2023-09-14 14:52:50,Sample issue 587,This is a description for ticket 587.
+TKT00588,Sara Lee,Bob,Other,Critical,In Progress,2024-05-25 08:48:18,2024-05-31 11:48:18,Sample issue 588,This is a description for ticket 588.
+TKT00589,Mike Brown,Eve,Access,Critical,On Hold,2023-01-09 09:38:26,2023-01-16 13:38:26,Sample issue 589,This is a description for ticket 589.
+TKT00590,Mike Brown,Bob,Other,Critical,Open,2023-04-25 15:15:55,2023-05-02 13:15:55,Sample issue 590,This is a description for ticket 590.
+TKT00591,Jane Smith,Bob,Software,Critical,Open,2023-01-04 14:57:08,,Sample issue 591,This is a description for ticket 591.
+TKT00592,Tom Clark,Eve,Network,High,In Progress,2024-03-14 16:10:40,,Sample issue 592,This is a description for ticket 592.
+TKT00593,Sara Lee,Frank,Access,High,Open,2023-03-13 02:19:50,,Sample issue 593,This is a description for ticket 593.
+TKT00594,John Doe,Frank,Access,Low,In Progress,2024-05-07 23:43:39,2024-05-14 00:43:39,Sample issue 594,This is a description for ticket 594.
+TKT00595,Linda White,Frank,Software,High,Resolved,2023-08-13 03:12:15,,Sample issue 595,This is a description for ticket 595.
+TKT00596,John Doe,Diana,Access,Medium,In Progress,2023-01-20 22:18:46,,Sample issue 596,This is a description for ticket 596.
+TKT00597,Linda White,Bob,Other,Low,On Hold,2024-03-07 14:44:50,,Sample issue 597,This is a description for ticket 597.
+TKT00598,Tom Clark,Frank,Software,Low,On Hold,2023-03-14 21:24:56,2023-03-23 15:24:56,Sample issue 598,This is a description for ticket 598.
+TKT00599,Mike Brown,Alice,Network,Medium,On Hold,2023-10-07 10:49:54,2023-10-16 06:49:54,Sample issue 599,This is a description for ticket 599.
+TKT00600,Sara Lee,Charlie,Hardware,Critical,On Hold,2023-02-10 23:01:04,,Sample issue 600,This is a description for ticket 600.
+TKT00601,Linda White,Diana,Network,Low,Open,2024-02-11 02:33:01,,Sample issue 601,This is a description for ticket 601.
+TKT00602,Linda White,Alice,Other,Low,Open,2023-02-26 22:09:55,2023-03-04 21:09:55,Sample issue 602,This is a description for ticket 602.
+TKT00603,Linda White,Eve,Network,Critical,In Progress,2023-03-14 07:36:46,2023-03-15 04:36:46,Sample issue 603,This is a description for ticket 603.
+TKT00604,Sara Lee,Charlie,Hardware,Medium,In Progress,2024-04-18 06:58:30,,Sample issue 604,This is a description for ticket 604.
+TKT00605,John Doe,Eve,Hardware,Critical,Resolved,2023-02-28 16:41:50,,Sample issue 605,This is a description for ticket 605.
+TKT00606,Sara Lee,Frank,Other,Medium,Open,2023-02-22 10:49:16,,Sample issue 606,This is a description for ticket 606.
+TKT00607,Tom Clark,Eve,Hardware,Critical,Resolved,2023-04-13 23:02:30,,Sample issue 607,This is a description for ticket 607.
+TKT00608,Sara Lee,Alice,Other,Medium,Resolved,2023-09-11 09:20:12,,Sample issue 608,This is a description for ticket 608.
+TKT00609,John Doe,Diana,Hardware,Critical,In Progress,2023-12-28 16:49:41,2023-12-30 10:49:41,Sample issue 609,This is a description for ticket 609.
+TKT00610,Tom Clark,Alice,Network,Critical,Resolved,2024-02-19 00:24:50,,Sample issue 610,This is a description for ticket 610.
+TKT00611,Sara Lee,Diana,Access,High,Open,2023-06-23 03:08:34,2023-06-27 10:08:34,Sample issue 611,This is a description for ticket 611.
+TKT00612,Mike Brown,Charlie,Other,Critical,In Progress,2023-12-21 02:45:00,,Sample issue 612,This is a description for ticket 612.
+TKT00613,Sara Lee,Diana,Other,Low,On Hold,2023-07-28 15:42:07,,Sample issue 613,This is a description for ticket 613.
+TKT00614,Tom Clark,Charlie,Hardware,High,Resolved,2023-10-01 13:16:23,,Sample issue 614,This is a description for ticket 614.
+TKT00615,Linda White,Eve,Access,Critical,Closed,2023-01-21 14:49:44,,Sample issue 615,This is a description for ticket 615.
+TKT00616,Jane Smith,Bob,Hardware,High,Resolved,2023-07-19 09:33:56,,Sample issue 616,This is a description for ticket 616.
+TKT00617,Jane Smith,Diana,Other,Critical,On Hold,2024-05-19 07:23:10,2024-05-28 04:23:10,Sample issue 617,This is a description for ticket 617.
+TKT00618,John Doe,Frank,Access,Medium,Open,2023-06-24 17:00:41,,Sample issue 618,This is a description for ticket 618.
+TKT00619,Sara Lee,Frank,Access,Low,Resolved,2024-02-06 22:56:07,2024-02-15 16:56:07,Sample issue 619,This is a description for ticket 619.
+TKT00620,Tom Clark,Eve,Hardware,Low,Resolved,2023-11-28 06:05:35,2023-12-07 13:05:35,Sample issue 620,This is a description for ticket 620.
+TKT00621,Jane Smith,Bob,Software,Critical,Open,2023-04-12 11:38:58,,Sample issue 621,This is a description for ticket 621.
+TKT00622,Linda White,Frank,Access,Critical,In Progress,2024-03-19 07:03:36,2024-03-26 18:03:36,Sample issue 622,This is a description for ticket 622.
+TKT00623,Jane Smith,Bob,Network,Low,Closed,2024-05-16 01:08:47,2024-05-17 07:08:47,Sample issue 623,This is a description for ticket 623.
+TKT00624,Tom Clark,Frank,Other,Low,Resolved,2023-07-18 01:47:45,,Sample issue 624,This is a description for ticket 624.
+TKT00625,Linda White,Frank,Access,Low,In Progress,2023-08-01 23:50:20,2023-08-11 04:50:20,Sample issue 625,This is a description for ticket 625.
+TKT00626,John Doe,Alice,Network,High,On Hold,2023-09-15 15:28:23,2023-09-24 02:28:23,Sample issue 626,This is a description for ticket 626.
+TKT00627,Tom Clark,Frank,Access,High,Resolved,2024-05-01 23:22:12,,Sample issue 627,This is a description for ticket 627.
+TKT00628,Mike Brown,Diana,Software,Medium,In Progress,2023-01-07 17:36:44,2023-01-14 02:36:44,Sample issue 628,This is a description for ticket 628.
+TKT00629,Linda White,Bob,Other,Medium,Resolved,2024-05-07 21:21:21,2024-05-10 05:21:21,Sample issue 629,This is a description for ticket 629.
+TKT00630,Mike Brown,Bob,Hardware,Critical,Closed,2023-03-15 22:23:56,2023-03-18 22:23:56,Sample issue 630,This is a description for ticket 630.
+TKT00631,Jane Smith,Alice,Other,Critical,In Progress,2023-10-23 03:40:46,,Sample issue 631,This is a description for ticket 631.
+TKT00632,Sara Lee,Eve,Hardware,Low,Closed,2023-07-28 11:36:58,2023-07-31 22:36:58,Sample issue 632,This is a description for ticket 632.
+TKT00633,Sara Lee,Bob,Hardware,Low,On Hold,2023-08-31 09:35:29,2023-09-03 16:35:29,Sample issue 633,This is a description for ticket 633.
+TKT00634,Sara Lee,Charlie,Other,Medium,Open,2023-07-22 15:55:18,,Sample issue 634,This is a description for ticket 634.
+TKT00635,Jane Smith,Charlie,Access,Medium,On Hold,2023-06-16 17:28:54,,Sample issue 635,This is a description for ticket 635.
+TKT00636,Linda White,Frank,Access,High,On Hold,2024-01-27 12:20:09,2024-01-31 19:20:09,Sample issue 636,This is a description for ticket 636.
+TKT00637,Jane Smith,Frank,Hardware,High,Closed,2023-05-10 15:02:47,2023-05-19 15:02:47,Sample issue 637,This is a description for ticket 637.
+TKT00638,John Doe,Frank,Network,High,Resolved,2023-09-09 22:09:14,,Sample issue 638,This is a description for ticket 638.
+TKT00639,Mike Brown,Alice,Network,Medium,On Hold,2023-04-17 05:03:21,,Sample issue 639,This is a description for ticket 639.
+TKT00640,Linda White,Frank,Software,Low,On Hold,2023-03-10 10:59:47,,Sample issue 640,This is a description for ticket 640.
+TKT00641,Sara Lee,Frank,Hardware,High,Closed,2024-04-03 18:50:40,,Sample issue 641,This is a description for ticket 641.
+TKT00642,Sara Lee,Bob,Hardware,Medium,In Progress,2023-08-29 22:22:08,,Sample issue 642,This is a description for ticket 642.
+TKT00643,Mike Brown,Charlie,Other,Medium,Open,2023-02-20 11:55:27,2023-02-28 13:55:27,Sample issue 643,This is a description for ticket 643.
+TKT00644,Sara Lee,Alice,Network,High,Resolved,2023-06-24 11:51:15,2023-07-04 08:51:15,Sample issue 644,This is a description for ticket 644.
+TKT00645,Mike Brown,Charlie,Access,Medium,Resolved,2023-04-16 14:05:22,2023-04-23 08:05:22,Sample issue 645,This is a description for ticket 645.
+TKT00646,Linda White,Alice,Hardware,High,Resolved,2023-11-16 15:22:33,,Sample issue 646,This is a description for ticket 646.
+TKT00647,Linda White,Bob,Access,Low,On Hold,2023-05-21 08:55:08,,Sample issue 647,This is a description for ticket 647.
+TKT00648,Jane Smith,Eve,Software,High,Resolved,2023-04-05 07:01:14,,Sample issue 648,This is a description for ticket 648.
+TKT00649,Mike Brown,Frank,Network,Medium,Closed,2023-12-07 05:06:29,2023-12-10 18:06:29,Sample issue 649,This is a description for ticket 649.
+TKT00650,Sara Lee,Frank,Hardware,High,In Progress,2023-03-05 19:41:42,2023-03-06 00:41:42,Sample issue 650,This is a description for ticket 650.
+TKT00651,Linda White,Frank,Network,Critical,Open,2023-03-31 10:21:12,2023-04-06 18:21:12,Sample issue 651,This is a description for ticket 651.
+TKT00652,Jane Smith,Alice,Other,Medium,Open,2024-05-29 17:07:42,2024-05-31 11:07:42,Sample issue 652,This is a description for ticket 652.
+TKT00653,Jane Smith,Charlie,Software,High,In Progress,2023-02-11 16:37:46,2023-02-15 07:37:46,Sample issue 653,This is a description for ticket 653.
+TKT00654,Linda White,Eve,Other,High,Open,2023-04-15 15:28:45,2023-04-18 23:28:45,Sample issue 654,This is a description for ticket 654.
+TKT00655,Jane Smith,Frank,Software,High,Closed,2023-10-19 07:51:39,2023-10-25 08:51:39,Sample issue 655,This is a description for ticket 655.
+TKT00656,Sara Lee,Diana,Hardware,High,On Hold,2024-01-28 12:59:17,2024-02-02 06:59:17,Sample issue 656,This is a description for ticket 656.
+TKT00657,Tom Clark,Diana,Hardware,Medium,Resolved,2023-02-12 17:07:29,2023-02-20 00:07:29,Sample issue 657,This is a description for ticket 657.
+TKT00658,Jane Smith,Charlie,Software,High,On Hold,2023-03-05 16:18:41,2023-03-06 23:18:41,Sample issue 658,This is a description for ticket 658.
+TKT00659,Mike Brown,Charlie,Hardware,Critical,Closed,2023-08-05 15:30:25,2023-08-06 22:30:25,Sample issue 659,This is a description for ticket 659.
+TKT00660,John Doe,Eve,Other,High,On Hold,2023-10-17 18:13:15,2023-10-21 03:13:15,Sample issue 660,This is a description for ticket 660.
+TKT00661,Jane Smith,Charlie,Access,Critical,On Hold,2023-11-14 05:17:47,2023-11-21 17:17:47,Sample issue 661,This is a description for ticket 661.
+TKT00662,John Doe,Diana,Network,Medium,Open,2024-02-21 03:56:27,2024-02-22 20:56:27,Sample issue 662,This is a description for ticket 662.
+TKT00663,Jane Smith,Bob,Other,Low,On Hold,2023-11-24 16:45:05,2023-12-04 13:45:05,Sample issue 663,This is a description for ticket 663.
+TKT00664,Mike Brown,Bob,Other,Medium,On Hold,2023-03-10 13:46:46,2023-03-18 04:46:46,Sample issue 664,This is a description for ticket 664.
+TKT00665,Tom Clark,Bob,Hardware,Medium,Resolved,2023-05-31 05:47:53,,Sample issue 665,This is a description for ticket 665.
+TKT00666,Sara Lee,Frank,Other,Medium,On Hold,2023-08-01 20:13:11,2023-08-10 19:13:11,Sample issue 666,This is a description for ticket 666.
+TKT00667,Linda White,Bob,Other,Medium,Resolved,2024-04-07 15:41:31,2024-04-11 09:41:31,Sample issue 667,This is a description for ticket 667.
+TKT00668,Tom Clark,Frank,Network,Medium,Resolved,2023-05-03 20:23:30,,Sample issue 668,This is a description for ticket 668.
+TKT00669,Mike Brown,Frank,Hardware,High,On Hold,2024-01-02 17:06:05,,Sample issue 669,This is a description for ticket 669.
+TKT00670,Jane Smith,Charlie,Hardware,Medium,Open,2023-08-06 21:59:17,2023-08-13 08:59:17,Sample issue 670,This is a description for ticket 670.
+TKT00671,Sara Lee,Bob,Access,High,Open,2024-04-28 17:37:14,,Sample issue 671,This is a description for ticket 671.
+TKT00672,Sara Lee,Diana,Other,Medium,Resolved,2023-03-13 12:01:54,,Sample issue 672,This is a description for ticket 672.
+TKT00673,Sara Lee,Alice,Network,Medium,Closed,2023-12-10 06:42:56,2023-12-17 13:42:56,Sample issue 673,This is a description for ticket 673.
+TKT00674,Linda White,Eve,Software,High,Closed,2023-11-11 11:09:14,2023-11-18 01:09:14,Sample issue 674,This is a description for ticket 674.
+TKT00675,John Doe,Diana,Network,Low,On Hold,2023-11-14 10:29:58,2023-11-14 19:29:58,Sample issue 675,This is a description for ticket 675.
+TKT00676,John Doe,Bob,Other,Medium,Closed,2023-05-20 08:35:07,2023-05-29 09:35:07,Sample issue 676,This is a description for ticket 676.
+TKT00677,John Doe,Diana,Software,Medium,Closed,2023-06-25 16:17:42,2023-07-01 04:17:42,Sample issue 677,This is a description for ticket 677.
+TKT00678,Sara Lee,Eve,Hardware,Medium,On Hold,2023-08-08 04:38:11,,Sample issue 678,This is a description for ticket 678.
+TKT00679,Sara Lee,Charlie,Hardware,Critical,In Progress,2023-06-20 20:29:15,,Sample issue 679,This is a description for ticket 679.
+TKT00680,Linda White,Charlie,Software,Low,On Hold,2024-05-18 04:10:27,,Sample issue 680,This is a description for ticket 680.
+TKT00681,Linda White,Eve,Software,Medium,Closed,2023-07-05 10:43:28,,Sample issue 681,This is a description for ticket 681.
+TKT00682,Tom Clark,Bob,Hardware,High,Closed,2023-08-07 21:14:13,,Sample issue 682,This is a description for ticket 682.
+TKT00683,Linda White,Diana,Other,High,In Progress,2023-08-02 02:11:44,,Sample issue 683,This is a description for ticket 683.
+TKT00684,Linda White,Eve,Access,High,In Progress,2023-07-31 05:44:09,2023-07-31 10:44:09,Sample issue 684,This is a description for ticket 684.
+TKT00685,Mike Brown,Diana,Other,Medium,Resolved,2023-11-22 21:21:47,,Sample issue 685,This is a description for ticket 685.
+TKT00686,Mike Brown,Alice,Software,High,On Hold,2024-01-06 22:49:09,,Sample issue 686,This is a description for ticket 686.
+TKT00687,Linda White,Bob,Hardware,Low,Open,2023-11-20 05:46:26,,Sample issue 687,This is a description for ticket 687.
+TKT00688,Mike Brown,Alice,Network,Medium,Closed,2023-12-24 15:07:01,2023-12-31 00:07:01,Sample issue 688,This is a description for ticket 688.
+TKT00689,Jane Smith,Frank,Hardware,Critical,Open,2024-01-27 14:25:14,2024-02-02 23:25:14,Sample issue 689,This is a description for ticket 689.
+TKT00690,John Doe,Frank,Access,High,Closed,2024-01-09 06:34:07,,Sample issue 690,This is a description for ticket 690.
+TKT00691,Sara Lee,Alice,Network,High,On Hold,2024-02-05 07:12:08,2024-02-13 10:12:08,Sample issue 691,This is a description for ticket 691.
+TKT00692,Tom Clark,Diana,Network,Low,Open,2023-11-19 05:43:50,,Sample issue 692,This is a description for ticket 692.
+TKT00693,Linda White,Diana,Hardware,Low,Closed,2023-09-06 11:28:56,2023-09-16 10:28:56,Sample issue 693,This is a description for ticket 693.
+TKT00694,John Doe,Bob,Network,Critical,On Hold,2023-12-19 21:54:30,,Sample issue 694,This is a description for ticket 694.
+TKT00695,Mike Brown,Alice,Access,Critical,On Hold,2023-05-14 12:54:58,,Sample issue 695,This is a description for ticket 695.
+TKT00696,Jane Smith,Bob,Access,Medium,Resolved,2023-09-03 22:45:23,,Sample issue 696,This is a description for ticket 696.
+TKT00697,Tom Clark,Eve,Hardware,Medium,Closed,2023-05-14 20:47:18,,Sample issue 697,This is a description for ticket 697.
+TKT00698,Jane Smith,Charlie,Hardware,Critical,Open,2024-04-09 08:57:55,,Sample issue 698,This is a description for ticket 698.
+TKT00699,Tom Clark,Eve,Network,Critical,Closed,2023-05-22 12:05:22,2023-05-30 08:05:22,Sample issue 699,This is a description for ticket 699.
+TKT00700,Jane Smith,Eve,Access,Medium,Open,2023-10-17 10:15:04,,Sample issue 700,This is a description for ticket 700.
+TKT00701,Tom Clark,Eve,Hardware,Medium,Resolved,2023-05-28 18:17:17,2023-06-07 02:17:17,Sample issue 701,This is a description for ticket 701.
+TKT00702,John Doe,Alice,Hardware,Low,In Progress,2023-07-07 19:38:05,2023-07-12 17:38:05,Sample issue 702,This is a description for ticket 702.
+TKT00703,Jane Smith,Eve,Network,Low,Open,2023-03-27 14:56:08,2023-04-04 21:56:08,Sample issue 703,This is a description for ticket 703.
+TKT00704,Sara Lee,Eve,Other,Critical,Open,2023-03-23 04:49:23,,Sample issue 704,This is a description for ticket 704.
+TKT00705,Tom Clark,Alice,Access,High,Open,2023-05-28 03:05:51,2023-06-03 00:05:51,Sample issue 705,This is a description for ticket 705.
+TKT00706,Sara Lee,Alice,Software,Low,Open,2023-12-09 05:33:28,,Sample issue 706,This is a description for ticket 706.
+TKT00707,Jane Smith,Diana,Other,High,In Progress,2023-06-18 23:28:11,,Sample issue 707,This is a description for ticket 707.
+TKT00708,Tom Clark,Bob,Network,Critical,Open,2023-08-02 14:06:07,,Sample issue 708,This is a description for ticket 708.
+TKT00709,Jane Smith,Bob,Other,Medium,In Progress,2023-07-21 23:47:24,2023-07-30 02:47:24,Sample issue 709,This is a description for ticket 709.
+TKT00710,Mike Brown,Diana,Network,Low,In Progress,2023-02-04 09:26:07,,Sample issue 710,This is a description for ticket 710.
+TKT00711,Jane Smith,Charlie,Network,Medium,Resolved,2023-09-05 01:56:53,2023-09-09 16:56:53,Sample issue 711,This is a description for ticket 711.
+TKT00712,Tom Clark,Eve,Network,Low,Resolved,2024-03-07 01:50:34,,Sample issue 712,This is a description for ticket 712.
+TKT00713,John Doe,Charlie,Software,Low,In Progress,2023-04-19 00:05:48,2023-04-20 14:05:48,Sample issue 713,This is a description for ticket 713.
+TKT00714,John Doe,Bob,Network,High,Open,2023-07-12 17:50:08,,Sample issue 714,This is a description for ticket 714.
+TKT00715,Sara Lee,Charlie,Hardware,Critical,In Progress,2023-03-04 15:25:09,,Sample issue 715,This is a description for ticket 715.
+TKT00716,Sara Lee,Eve,Hardware,Low,Closed,2023-02-14 18:53:19,,Sample issue 716,This is a description for ticket 716.
+TKT00717,Jane Smith,Diana,Software,Low,Closed,2024-01-21 20:14:22,2024-01-28 03:14:22,Sample issue 717,This is a description for ticket 717.
+TKT00718,John Doe,Diana,Network,High,Closed,2023-06-04 21:00:05,2023-06-11 09:00:05,Sample issue 718,This is a description for ticket 718.
+TKT00719,Sara Lee,Bob,Access,Medium,Closed,2023-02-22 09:50:44,,Sample issue 719,This is a description for ticket 719.
+TKT00720,Sara Lee,Bob,Other,Medium,On Hold,2023-07-03 07:21:46,2023-07-04 07:21:46,Sample issue 720,This is a description for ticket 720.
+TKT00721,Jane Smith,Charlie,Network,Critical,In Progress,2023-10-01 23:24:30,2023-10-07 09:24:30,Sample issue 721,This is a description for ticket 721.
+TKT00722,John Doe,Bob,Hardware,Critical,Closed,2023-03-15 06:34:36,,Sample issue 722,This is a description for ticket 722.
+TKT00723,Tom Clark,Charlie,Access,High,In Progress,2024-01-17 21:45:15,,Sample issue 723,This is a description for ticket 723.
+TKT00724,John Doe,Diana,Hardware,Critical,On Hold,2024-05-23 04:30:33,,Sample issue 724,This is a description for ticket 724.
+TKT00725,John Doe,Alice,Software,Medium,On Hold,2023-04-02 11:39:34,,Sample issue 725,This is a description for ticket 725.
+TKT00726,Sara Lee,Diana,Network,Medium,On Hold,2024-05-28 08:21:54,2024-05-31 16:21:54,Sample issue 726,This is a description for ticket 726.
+TKT00727,Tom Clark,Frank,Hardware,Critical,On Hold,2023-07-17 07:10:25,2023-07-20 11:10:25,Sample issue 727,This is a description for ticket 727.
+TKT00728,Mike Brown,Frank,Hardware,Critical,Open,2023-08-21 07:22:27,2023-08-29 21:22:27,Sample issue 728,This is a description for ticket 728.
+TKT00729,Linda White,Eve,Software,Medium,In Progress,2023-06-21 19:38:52,,Sample issue 729,This is a description for ticket 729.
+TKT00730,Jane Smith,Bob,Other,Low,Closed,2023-10-07 17:16:28,,Sample issue 730,This is a description for ticket 730.
+TKT00731,Mike Brown,Bob,Software,Medium,Resolved,2024-01-20 23:24:46,2024-01-26 12:24:46,Sample issue 731,This is a description for ticket 731.
+TKT00732,Linda White,Eve,Access,High,Resolved,2023-02-22 09:48:08,2023-02-28 20:48:08,Sample issue 732,This is a description for ticket 732.
+TKT00733,Linda White,Alice,Other,Critical,Open,2023-08-19 11:22:28,2023-08-27 05:22:28,Sample issue 733,This is a description for ticket 733.
+TKT00734,Tom Clark,Diana,Hardware,Critical,Open,2024-04-16 20:24:46,,Sample issue 734,This is a description for ticket 734.
+TKT00735,Mike Brown,Eve,Software,Low,Closed,2024-01-06 04:28:31,2024-01-09 19:28:31,Sample issue 735,This is a description for ticket 735.
+TKT00736,Jane Smith,Bob,Network,High,In Progress,2023-03-04 11:03:05,2023-03-08 15:03:05,Sample issue 736,This is a description for ticket 736.
+TKT00737,Linda White,Charlie,Software,Medium,Closed,2024-04-02 18:01:38,,Sample issue 737,This is a description for ticket 737.
+TKT00738,John Doe,Alice,Hardware,Low,Resolved,2023-04-16 23:50:49,2023-04-19 06:50:49,Sample issue 738,This is a description for ticket 738.
+TKT00739,John Doe,Frank,Other,Medium,Closed,2023-09-08 05:27:05,2023-09-13 19:27:05,Sample issue 739,This is a description for ticket 739.
+TKT00740,Sara Lee,Frank,Software,Low,On Hold,2024-02-02 01:22:20,2024-02-07 22:22:20,Sample issue 740,This is a description for ticket 740.
+TKT00741,Linda White,Alice,Hardware,Critical,In Progress,2023-02-18 08:36:52,2023-02-20 12:36:52,Sample issue 741,This is a description for ticket 741.
+TKT00742,Linda White,Eve,Hardware,High,Resolved,2023-12-31 20:28:31,,Sample issue 742,This is a description for ticket 742.
+TKT00743,Linda White,Diana,Other,High,On Hold,2023-02-06 10:45:35,,Sample issue 743,This is a description for ticket 743.
+TKT00744,Tom Clark,Charlie,Software,Medium,Closed,2023-10-26 08:03:30,2023-10-30 15:03:30,Sample issue 744,This is a description for ticket 744.
+TKT00745,Mike Brown,Eve,Access,High,On Hold,2023-12-25 23:30:36,2024-01-01 22:30:36,Sample issue 745,This is a description for ticket 745.
+TKT00746,Sara Lee,Frank,Hardware,High,On Hold,2023-06-03 12:40:37,,Sample issue 746,This is a description for ticket 746.
+TKT00747,John Doe,Charlie,Network,Low,Open,2024-05-19 15:30:56,,Sample issue 747,This is a description for ticket 747.
+TKT00748,Mike Brown,Frank,Other,Critical,On Hold,2023-05-06 05:37:20,,Sample issue 748,This is a description for ticket 748.
+TKT00749,Linda White,Charlie,Hardware,Critical,On Hold,2023-09-08 02:06:28,,Sample issue 749,This is a description for ticket 749.
+TKT00750,John Doe,Eve,Network,Critical,On Hold,2023-04-04 03:26:08,,Sample issue 750,This is a description for ticket 750.
+TKT00751,Linda White,Frank,Software,Critical,In Progress,2023-05-13 23:16:16,,Sample issue 751,This is a description for ticket 751.
+TKT00752,John Doe,Eve,Access,High,In Progress,2023-11-11 17:14:38,2023-11-18 22:14:38,Sample issue 752,This is a description for ticket 752.
+TKT00753,Jane Smith,Bob,Access,Critical,Open,2023-01-18 14:28:14,2023-01-19 07:28:14,Sample issue 753,This is a description for ticket 753.
+TKT00754,Linda White,Eve,Access,Critical,Open,2023-04-01 08:26:28,2023-04-09 15:26:28,Sample issue 754,This is a description for ticket 754.
+TKT00755,Tom Clark,Charlie,Access,Critical,On Hold,2023-12-05 23:05:35,2023-12-07 06:05:35,Sample issue 755,This is a description for ticket 755.
+TKT00756,Sara Lee,Alice,Network,Critical,Open,2024-03-17 10:36:29,,Sample issue 756,This is a description for ticket 756.
+TKT00757,Linda White,Bob,Other,High,Resolved,2023-03-19 07:18:02,,Sample issue 757,This is a description for ticket 757.
+TKT00758,Sara Lee,Eve,Network,High,On Hold,2023-05-04 01:23:26,,Sample issue 758,This is a description for ticket 758.
+TKT00759,Tom Clark,Diana,Network,Medium,Open,2023-12-21 20:45:50,,Sample issue 759,This is a description for ticket 759.
+TKT00760,Mike Brown,Eve,Software,Low,Closed,2023-03-22 08:44:07,2023-03-29 17:44:07,Sample issue 760,This is a description for ticket 760.
+TKT00761,Jane Smith,Bob,Access,High,Closed,2023-08-09 14:37:31,,Sample issue 761,This is a description for ticket 761.
+TKT00762,Jane Smith,Frank,Other,Critical,In Progress,2023-11-01 02:51:00,,Sample issue 762,This is a description for ticket 762.
+TKT00763,Jane Smith,Charlie,Access,Low,Open,2024-01-01 01:38:26,2024-01-08 00:38:26,Sample issue 763,This is a description for ticket 763.
+TKT00764,John Doe,Diana,Hardware,Low,In Progress,2023-11-18 16:05:05,2023-11-23 15:05:05,Sample issue 764,This is a description for ticket 764.
+TKT00765,Mike Brown,Bob,Hardware,Low,Open,2023-05-27 18:49:29,2023-06-01 01:49:29,Sample issue 765,This is a description for ticket 765.
+TKT00766,Tom Clark,Eve,Hardware,Low,Closed,2023-01-14 01:35:51,2023-01-15 07:35:51,Sample issue 766,This is a description for ticket 766.
+TKT00767,John Doe,Diana,Other,High,Resolved,2023-10-01 09:31:50,2023-10-04 17:31:50,Sample issue 767,This is a description for ticket 767.
+TKT00768,John Doe,Diana,Other,High,On Hold,2023-04-03 19:43:00,,Sample issue 768,This is a description for ticket 768.
+TKT00769,Jane Smith,Diana,Software,Medium,Open,2023-08-14 12:45:10,,Sample issue 769,This is a description for ticket 769.
+TKT00770,Sara Lee,Bob,Access,Medium,In Progress,2024-05-23 03:41:29,2024-05-26 16:41:29,Sample issue 770,This is a description for ticket 770.
+TKT00771,Linda White,Bob,Hardware,Low,In Progress,2023-09-26 14:41:40,2023-09-28 23:41:40,Sample issue 771,This is a description for ticket 771.
+TKT00772,Sara Lee,Alice,Other,High,Resolved,2023-03-28 02:23:02,,Sample issue 772,This is a description for ticket 772.
+TKT00773,Mike Brown,Frank,Network,Low,Open,2023-06-02 17:18:14,,Sample issue 773,This is a description for ticket 773.
+TKT00774,Sara Lee,Alice,Network,High,Closed,2023-01-02 13:06:40,2023-01-11 04:06:40,Sample issue 774,This is a description for ticket 774.
+TKT00775,Sara Lee,Bob,Other,Low,Open,2023-09-29 22:04:21,,Sample issue 775,This is a description for ticket 775.
+TKT00776,Tom Clark,Frank,Hardware,Low,Closed,2023-12-14 00:32:47,,Sample issue 776,This is a description for ticket 776.
+TKT00777,John Doe,Frank,Other,Low,Resolved,2024-05-02 19:17:30,,Sample issue 777,This is a description for ticket 777.
+TKT00778,Tom Clark,Diana,Hardware,Medium,Resolved,2023-11-07 22:30:16,2023-11-16 16:30:16,Sample issue 778,This is a description for ticket 778.
+TKT00779,John Doe,Charlie,Other,Low,Open,2024-01-29 09:26:58,2024-02-02 07:26:58,Sample issue 779,This is a description for ticket 779.
+TKT00780,Linda White,Alice,Network,Low,Resolved,2023-10-08 07:36:33,2023-10-17 04:36:33,Sample issue 780,This is a description for ticket 780.
+TKT00781,Jane Smith,Diana,Software,Critical,On Hold,2023-07-23 01:11:29,,Sample issue 781,This is a description for ticket 781.
+TKT00782,Jane Smith,Eve,Hardware,Medium,In Progress,2023-07-21 06:52:30,,Sample issue 782,This is a description for ticket 782.
+TKT00783,John Doe,Frank,Software,Critical,In Progress,2024-02-12 09:32:07,2024-02-16 12:32:07,Sample issue 783,This is a description for ticket 783.
+TKT00784,Mike Brown,Alice,Access,Low,In Progress,2024-03-15 12:58:26,,Sample issue 784,This is a description for ticket 784.
+TKT00785,Linda White,Alice,Access,Low,Open,2024-05-23 07:38:24,,Sample issue 785,This is a description for ticket 785.
+TKT00786,Jane Smith,Frank,Hardware,Critical,Closed,2023-03-20 02:24:17,,Sample issue 786,This is a description for ticket 786.
+TKT00787,Sara Lee,Bob,Network,Low,On Hold,2024-02-13 12:40:09,2024-02-22 02:40:09,Sample issue 787,This is a description for ticket 787.
+TKT00788,John Doe,Charlie,Other,Medium,Closed,2023-07-11 15:53:56,,Sample issue 788,This is a description for ticket 788.
+TKT00789,Jane Smith,Charlie,Hardware,Low,Closed,2023-01-24 23:00:34,2023-01-25 22:00:34,Sample issue 789,This is a description for ticket 789.
+TKT00790,Jane Smith,Charlie,Network,Critical,On Hold,2023-06-21 18:28:43,2023-06-24 18:28:43,Sample issue 790,This is a description for ticket 790.
+TKT00791,Tom Clark,Charlie,Network,High,Open,2023-03-12 10:34:15,,Sample issue 791,This is a description for ticket 791.
+TKT00792,Jane Smith,Diana,Network,Medium,Open,2024-04-29 23:29:46,,Sample issue 792,This is a description for ticket 792.
+TKT00793,Tom Clark,Eve,Access,Medium,In Progress,2023-12-17 23:39:48,2023-12-24 08:39:48,Sample issue 793,This is a description for ticket 793.
+TKT00794,Sara Lee,Bob,Hardware,Medium,Closed,2023-05-20 12:38:22,,Sample issue 794,This is a description for ticket 794.
+TKT00795,Tom Clark,Bob,Network,Medium,Open,2024-03-10 09:13:08,2024-03-13 02:13:08,Sample issue 795,This is a description for ticket 795.
+TKT00796,Tom Clark,Eve,Software,High,Resolved,2024-04-11 19:18:34,,Sample issue 796,This is a description for ticket 796.
+TKT00797,Mike Brown,Diana,Network,Medium,Open,2024-03-06 01:36:09,,Sample issue 797,This is a description for ticket 797.
+TKT00798,Mike Brown,Bob,Other,High,In Progress,2023-03-17 02:23:08,2023-03-18 14:23:08,Sample issue 798,This is a description for ticket 798.
+TKT00799,Jane Smith,Alice,Hardware,Low,Resolved,2023-12-13 03:58:31,2023-12-22 15:58:31,Sample issue 799,This is a description for ticket 799.
+TKT00800,Sara Lee,Bob,Software,Low,Closed,2023-05-22 09:10:27,,Sample issue 800,This is a description for ticket 800.
+TKT00801,John Doe,Charlie,Access,Critical,Resolved,2024-02-07 19:29:47,2024-02-16 09:29:47,Sample issue 801,This is a description for ticket 801.
+TKT00802,Sara Lee,Eve,Hardware,Low,On Hold,2024-02-17 16:09:57,2024-02-24 00:09:57,Sample issue 802,This is a description for ticket 802.
+TKT00803,John Doe,Bob,Hardware,Medium,On Hold,2023-10-11 02:15:49,2023-10-18 03:15:49,Sample issue 803,This is a description for ticket 803.
+TKT00804,Jane Smith,Alice,Hardware,High,Resolved,2023-06-21 12:52:31,,Sample issue 804,This is a description for ticket 804.
+TKT00805,John Doe,Frank,Access,Critical,On Hold,2023-03-28 14:41:51,,Sample issue 805,This is a description for ticket 805.
+TKT00806,Tom Clark,Eve,Software,Medium,Open,2023-12-06 07:55:48,2023-12-15 12:55:48,Sample issue 806,This is a description for ticket 806.
+TKT00807,Sara Lee,Eve,Other,High,Open,2023-05-23 02:52:21,2023-05-31 20:52:21,Sample issue 807,This is a description for ticket 807.
+TKT00808,Linda White,Eve,Software,Medium,Closed,2024-04-22 00:09:31,,Sample issue 808,This is a description for ticket 808.
+TKT00809,Tom Clark,Bob,Network,Medium,Open,2023-03-19 09:26:45,,Sample issue 809,This is a description for ticket 809.
+TKT00810,Sara Lee,Diana,Software,High,Resolved,2024-02-18 13:06:53,,Sample issue 810,This is a description for ticket 810.
+TKT00811,Tom Clark,Frank,Access,High,In Progress,2023-03-26 13:20:45,2023-03-31 11:20:45,Sample issue 811,This is a description for ticket 811.
+TKT00812,Mike Brown,Diana,Access,Low,Closed,2023-12-16 23:37:10,2023-12-25 06:37:10,Sample issue 812,This is a description for ticket 812.
+TKT00813,Linda White,Eve,Other,High,In Progress,2023-06-30 22:25:01,2023-07-06 07:25:01,Sample issue 813,This is a description for ticket 813.
+TKT00814,Jane Smith,Bob,Other,Low,Resolved,2023-06-11 15:39:53,,Sample issue 814,This is a description for ticket 814.
+TKT00815,Jane Smith,Bob,Hardware,High,Closed,2023-03-28 15:23:18,,Sample issue 815,This is a description for ticket 815.
+TKT00816,Jane Smith,Diana,Network,High,In Progress,2023-08-10 11:46:12,2023-08-18 02:46:12,Sample issue 816,This is a description for ticket 816.
+TKT00817,Tom Clark,Eve,Hardware,Low,On Hold,2024-05-26 23:40:32,2024-05-31 14:40:32,Sample issue 817,This is a description for ticket 817.
+TKT00818,John Doe,Diana,Network,High,Open,2023-10-19 04:27:02,2023-10-23 06:27:02,Sample issue 818,This is a description for ticket 818.
+TKT00819,Mike Brown,Diana,Access,Critical,On Hold,2023-04-12 16:24:23,,Sample issue 819,This is a description for ticket 819.
+TKT00820,Jane Smith,Diana,Software,Low,Resolved,2023-07-13 02:44:29,2023-07-16 13:44:29,Sample issue 820,This is a description for ticket 820.
+TKT00821,Tom Clark,Charlie,Hardware,High,On Hold,2023-11-24 08:06:13,,Sample issue 821,This is a description for ticket 821.
+TKT00822,Sara Lee,Alice,Hardware,Medium,Open,2023-03-15 13:22:34,2023-03-19 07:22:34,Sample issue 822,This is a description for ticket 822.
+TKT00823,Jane Smith,Diana,Other,High,In Progress,2023-10-11 09:13:00,,Sample issue 823,This is a description for ticket 823.
+TKT00824,John Doe,Diana,Software,Critical,Resolved,2023-12-08 19:43:42,,Sample issue 824,This is a description for ticket 824.
+TKT00825,John Doe,Alice,Hardware,Low,Closed,2023-08-26 11:57:37,,Sample issue 825,This is a description for ticket 825.
+TKT00826,Sara Lee,Eve,Hardware,Low,On Hold,2023-06-08 02:57:38,2023-06-08 03:57:38,Sample issue 826,This is a description for ticket 826.
+TKT00827,Sara Lee,Diana,Hardware,High,Open,2023-04-25 12:47:03,,Sample issue 827,This is a description for ticket 827.
+TKT00828,Linda White,Diana,Other,Low,Open,2024-01-12 10:05:44,2024-01-19 07:05:44,Sample issue 828,This is a description for ticket 828.
+TKT00829,Jane Smith,Eve,Other,Low,On Hold,2023-01-06 12:41:06,2023-01-06 22:41:06,Sample issue 829,This is a description for ticket 829.
+TKT00830,Sara Lee,Eve,Other,High,In Progress,2023-12-01 05:08:06,2023-12-07 23:08:06,Sample issue 830,This is a description for ticket 830.
+TKT00831,Jane Smith,Frank,Network,Critical,On Hold,2023-06-17 17:12:17,,Sample issue 831,This is a description for ticket 831.
+TKT00832,Sara Lee,Bob,Network,Low,Resolved,2024-02-27 09:27:14,2024-03-03 22:27:14,Sample issue 832,This is a description for ticket 832.
+TKT00833,Jane Smith,Frank,Hardware,High,Closed,2023-01-02 22:28:07,,Sample issue 833,This is a description for ticket 833.
+TKT00834,John Doe,Eve,Access,Medium,In Progress,2023-02-27 03:43:01,2023-02-27 04:43:01,Sample issue 834,This is a description for ticket 834.
+TKT00835,Tom Clark,Bob,Network,Low,On Hold,2023-08-16 02:58:15,,Sample issue 835,This is a description for ticket 835.
+TKT00836,Sara Lee,Alice,Access,Critical,In Progress,2023-06-25 08:27:30,,Sample issue 836,This is a description for ticket 836.
+TKT00837,Tom Clark,Bob,Other,High,Closed,2023-05-15 20:58:51,2023-05-18 11:58:51,Sample issue 837,This is a description for ticket 837.
+TKT00838,Jane Smith,Frank,Hardware,Critical,In Progress,2023-11-03 10:06:31,,Sample issue 838,This is a description for ticket 838.
+TKT00839,John Doe,Bob,Software,Medium,Resolved,2023-01-27 18:23:22,2023-02-06 02:23:22,Sample issue 839,This is a description for ticket 839.
+TKT00840,John Doe,Charlie,Network,High,On Hold,2023-07-28 07:46:20,,Sample issue 840,This is a description for ticket 840.
+TKT00841,Jane Smith,Bob,Other,High,Resolved,2023-01-10 02:43:29,,Sample issue 841,This is a description for ticket 841.
+TKT00842,Tom Clark,Eve,Access,Low,Closed,2024-05-01 17:53:56,2024-05-08 12:53:56,Sample issue 842,This is a description for ticket 842.
+TKT00843,John Doe,Eve,Network,Low,Closed,2023-02-09 03:48:16,,Sample issue 843,This is a description for ticket 843.
+TKT00844,John Doe,Eve,Network,Medium,In Progress,2024-01-26 15:34:45,2024-01-31 02:34:45,Sample issue 844,This is a description for ticket 844.
+TKT00845,Mike Brown,Bob,Access,Critical,Resolved,2023-07-12 13:04:08,2023-07-15 07:04:08,Sample issue 845,This is a description for ticket 845.
+TKT00846,Linda White,Eve,Network,Low,Resolved,2023-09-17 01:43:56,2023-09-21 12:43:56,Sample issue 846,This is a description for ticket 846.
+TKT00847,Linda White,Eve,Access,Low,In Progress,2023-09-19 16:30:13,,Sample issue 847,This is a description for ticket 847.
+TKT00848,John Doe,Charlie,Network,Critical,Open,2023-06-12 21:12:22,,Sample issue 848,This is a description for ticket 848.
+TKT00849,Sara Lee,Frank,Hardware,High,Resolved,2024-01-12 02:51:29,2024-01-15 06:51:29,Sample issue 849,This is a description for ticket 849.
+TKT00850,Jane Smith,Bob,Access,High,Closed,2023-10-18 07:15:19,,Sample issue 850,This is a description for ticket 850.
+TKT00851,Jane Smith,Diana,Access,High,Resolved,2023-05-10 05:44:05,,Sample issue 851,This is a description for ticket 851.
+TKT00852,Sara Lee,Bob,Access,Low,Closed,2023-09-12 20:24:27,,Sample issue 852,This is a description for ticket 852.
+TKT00853,Mike Brown,Eve,Access,Low,On Hold,2023-11-21 06:19:43,,Sample issue 853,This is a description for ticket 853.
+TKT00854,Sara Lee,Frank,Other,Critical,In Progress,2023-06-07 10:09:10,,Sample issue 854,This is a description for ticket 854.
+TKT00855,Jane Smith,Alice,Hardware,Low,On Hold,2023-06-17 23:10:15,,Sample issue 855,This is a description for ticket 855.
+TKT00856,Tom Clark,Charlie,Access,Medium,On Hold,2023-07-13 09:02:49,2023-07-14 04:02:49,Sample issue 856,This is a description for ticket 856.
+TKT00857,Linda White,Charlie,Network,High,Open,2023-02-21 03:51:28,2023-02-28 18:51:28,Sample issue 857,This is a description for ticket 857.
+TKT00858,Sara Lee,Frank,Other,Medium,In Progress,2023-02-27 12:15:50,,Sample issue 858,This is a description for ticket 858.
+TKT00859,John Doe,Alice,Hardware,High,Closed,2023-01-01 12:08:50,,Sample issue 859,This is a description for ticket 859.
+TKT00860,Mike Brown,Diana,Software,Medium,In Progress,2024-01-06 02:38:35,,Sample issue 860,This is a description for ticket 860.
+TKT00861,John Doe,Charlie,Access,Critical,On Hold,2024-03-26 01:14:04,,Sample issue 861,This is a description for ticket 861.
+TKT00862,Tom Clark,Charlie,Software,Low,In Progress,2023-01-27 16:23:08,,Sample issue 862,This is a description for ticket 862.
+TKT00863,John Doe,Charlie,Hardware,Medium,In Progress,2023-11-05 06:15:22,,Sample issue 863,This is a description for ticket 863.
+TKT00864,John Doe,Alice,Software,Low,Open,2023-07-18 23:17:11,2023-07-28 20:17:11,Sample issue 864,This is a description for ticket 864.
+TKT00865,Jane Smith,Frank,Software,Medium,Closed,2023-02-09 14:05:34,2023-02-11 17:05:34,Sample issue 865,This is a description for ticket 865.
+TKT00866,Mike Brown,Alice,Other,Low,Closed,2023-09-03 03:22:39,2023-09-11 16:22:39,Sample issue 866,This is a description for ticket 866.
+TKT00867,Sara Lee,Eve,Hardware,Critical,Open,2023-07-27 20:05:07,,Sample issue 867,This is a description for ticket 867.
+TKT00868,Sara Lee,Alice,Network,Low,Resolved,2023-06-14 21:50:19,2023-06-15 20:50:19,Sample issue 868,This is a description for ticket 868.
+TKT00869,Tom Clark,Charlie,Network,Medium,Resolved,2023-09-06 08:11:33,,Sample issue 869,This is a description for ticket 869.
+TKT00870,Jane Smith,Eve,Access,Medium,In Progress,2023-05-12 03:51:49,2023-05-21 05:51:49,Sample issue 870,This is a description for ticket 870.
+TKT00871,Linda White,Charlie,Network,Critical,On Hold,2023-11-28 01:06:05,2023-12-01 01:06:05,Sample issue 871,This is a description for ticket 871.
+TKT00872,Mike Brown,Charlie,Network,Low,Resolved,2023-08-17 10:14:50,,Sample issue 872,This is a description for ticket 872.
+TKT00873,John Doe,Alice,Software,High,In Progress,2024-01-06 04:08:36,,Sample issue 873,This is a description for ticket 873.
+TKT00874,John Doe,Alice,Software,Low,On Hold,2024-01-03 23:37:01,2024-01-06 14:37:01,Sample issue 874,This is a description for ticket 874.
+TKT00875,Linda White,Diana,Hardware,High,Open,2024-04-12 10:00:22,,Sample issue 875,This is a description for ticket 875.
+TKT00876,Tom Clark,Alice,Other,Low,Open,2023-07-14 11:29:01,,Sample issue 876,This is a description for ticket 876.
+TKT00877,Linda White,Diana,Software,Low,In Progress,2023-12-08 22:52:08,2023-12-18 00:52:08,Sample issue 877,This is a description for ticket 877.
+TKT00878,Linda White,Diana,Other,Critical,Open,2024-04-04 12:23:10,,Sample issue 878,This is a description for ticket 878.
+TKT00879,Linda White,Charlie,Access,Low,Closed,2023-06-02 02:49:55,,Sample issue 879,This is a description for ticket 879.
+TKT00880,Linda White,Charlie,Access,High,Open,2023-06-19 09:40:03,2023-06-23 04:40:03,Sample issue 880,This is a description for ticket 880.
+TKT00881,Sara Lee,Bob,Hardware,Critical,Closed,2023-08-25 22:50:03,2023-08-28 19:50:03,Sample issue 881,This is a description for ticket 881.
+TKT00882,Jane Smith,Frank,Hardware,Medium,Open,2023-11-16 08:52:17,,Sample issue 882,This is a description for ticket 882.
+TKT00883,Sara Lee,Frank,Other,Low,On Hold,2023-05-04 09:26:53,,Sample issue 883,This is a description for ticket 883.
+TKT00884,Sara Lee,Diana,Hardware,Medium,Resolved,2023-10-07 10:21:34,,Sample issue 884,This is a description for ticket 884.
+TKT00885,Linda White,Frank,Network,Critical,On Hold,2023-11-22 11:11:29,2023-11-30 16:11:29,Sample issue 885,This is a description for ticket 885.
+TKT00886,Jane Smith,Eve,Hardware,High,Resolved,2023-09-13 21:27:57,2023-09-19 06:27:57,Sample issue 886,This is a description for ticket 886.
+TKT00887,Tom Clark,Eve,Access,Low,Closed,2023-10-17 02:18:25,,Sample issue 887,This is a description for ticket 887.
+TKT00888,John Doe,Eve,Software,Critical,On Hold,2023-07-21 17:17:46,2023-07-24 07:17:46,Sample issue 888,This is a description for ticket 888.
+TKT00889,Jane Smith,Frank,Network,High,Closed,2023-07-26 23:27:30,2023-08-01 03:27:30,Sample issue 889,This is a description for ticket 889.
+TKT00890,Tom Clark,Alice,Network,Low,Open,2023-06-19 11:50:13,2023-06-23 12:50:13,Sample issue 890,This is a description for ticket 890.
+TKT00891,Linda White,Bob,Software,Critical,Resolved,2024-01-30 10:15:19,2024-01-31 04:15:19,Sample issue 891,This is a description for ticket 891.
+TKT00892,John Doe,Diana,Network,Critical,In Progress,2023-05-23 18:32:39,,Sample issue 892,This is a description for ticket 892.
+TKT00893,Tom Clark,Charlie,Access,Critical,Open,2023-05-19 06:34:16,2023-05-22 06:34:16,Sample issue 893,This is a description for ticket 893.
+TKT00894,Mike Brown,Bob,Access,High,Closed,2024-05-02 02:44:00,2024-05-09 20:44:00,Sample issue 894,This is a description for ticket 894.
+TKT00895,Sara Lee,Diana,Access,Medium,In Progress,2023-12-02 02:49:04,,Sample issue 895,This is a description for ticket 895.
+TKT00896,Mike Brown,Eve,Access,Low,On Hold,2023-07-19 09:02:33,2023-07-25 10:02:33,Sample issue 896,This is a description for ticket 896.
+TKT00897,John Doe,Frank,Hardware,High,Open,2023-12-18 17:41:27,,Sample issue 897,This is a description for ticket 897.
+TKT00898,Jane Smith,Bob,Access,Low,Open,2023-11-06 14:12:15,,Sample issue 898,This is a description for ticket 898.
+TKT00899,Linda White,Alice,Software,Critical,On Hold,2024-02-28 15:26:59,,Sample issue 899,This is a description for ticket 899.
+TKT00900,John Doe,Eve,Other,Critical,Open,2023-11-07 02:08:47,2023-11-11 04:08:47,Sample issue 900,This is a description for ticket 900.
+TKT00901,Tom Clark,Diana,Network,Medium,Closed,2023-11-22 17:23:48,,Sample issue 901,This is a description for ticket 901.
+TKT00902,Linda White,Frank,Hardware,Critical,Closed,2023-09-13 02:09:49,,Sample issue 902,This is a description for ticket 902.
+TKT00903,Linda White,Diana,Access,Critical,Resolved,2023-01-22 09:35:09,,Sample issue 903,This is a description for ticket 903.
+TKT00904,Sara Lee,Charlie,Access,Low,Open,2023-12-29 10:41:15,,Sample issue 904,This is a description for ticket 904.
+TKT00905,Linda White,Bob,Network,Medium,Closed,2024-03-28 18:33:59,2024-03-31 08:33:59,Sample issue 905,This is a description for ticket 905.
+TKT00906,Jane Smith,Eve,Network,Medium,On Hold,2023-06-02 09:03:05,2023-06-08 07:03:05,Sample issue 906,This is a description for ticket 906.
+TKT00907,Linda White,Charlie,Hardware,Medium,Open,2023-03-01 07:05:40,,Sample issue 907,This is a description for ticket 907.
+TKT00908,Mike Brown,Bob,Network,Critical,Resolved,2023-11-29 08:18:53,2023-12-01 19:18:53,Sample issue 908,This is a description for ticket 908.
+TKT00909,Jane Smith,Bob,Network,Medium,On Hold,2023-12-31 21:03:19,,Sample issue 909,This is a description for ticket 909.
+TKT00910,Linda White,Bob,Software,Low,In Progress,2023-08-09 14:42:09,,Sample issue 910,This is a description for ticket 910.
+TKT00911,John Doe,Charlie,Other,Critical,Closed,2024-01-20 09:05:50,2024-01-26 15:05:50,Sample issue 911,This is a description for ticket 911.
+TKT00912,Tom Clark,Diana,Other,Low,Closed,2023-02-16 07:37:07,,Sample issue 912,This is a description for ticket 912.
+TKT00913,Mike Brown,Bob,Network,Low,In Progress,2023-05-05 02:45:27,2023-05-13 07:45:27,Sample issue 913,This is a description for ticket 913.
+TKT00914,Linda White,Bob,Network,Low,On Hold,2023-03-24 01:53:24,2023-03-26 11:53:24,Sample issue 914,This is a description for ticket 914.
+TKT00915,Linda White,Diana,Network,Critical,Closed,2023-09-25 13:12:10,,Sample issue 915,This is a description for ticket 915.
+TKT00916,Tom Clark,Alice,Hardware,Medium,Resolved,2024-01-13 11:00:17,2024-01-15 17:00:17,Sample issue 916,This is a description for ticket 916.
+TKT00917,Linda White,Diana,Software,Critical,On Hold,2024-05-11 05:50:27,,Sample issue 917,This is a description for ticket 917.
+TKT00918,Linda White,Frank,Access,Low,Open,2024-05-21 22:49:05,2024-05-23 01:49:05,Sample issue 918,This is a description for ticket 918.
+TKT00919,Mike Brown,Eve,Access,Critical,Open,2023-01-25 17:13:27,2023-02-04 15:13:27,Sample issue 919,This is a description for ticket 919.
+TKT00920,Linda White,Charlie,Other,Low,On Hold,2024-02-29 21:48:30,2024-03-08 19:48:30,Sample issue 920,This is a description for ticket 920.
+TKT00921,Sara Lee,Eve,Access,High,On Hold,2023-05-21 22:46:12,2023-05-26 18:46:12,Sample issue 921,This is a description for ticket 921.
+TKT00922,Linda White,Bob,Network,Critical,Open,2024-03-01 10:52:30,,Sample issue 922,This is a description for ticket 922.
+TKT00923,John Doe,Diana,Software,Critical,Resolved,2023-09-01 11:36:56,,Sample issue 923,This is a description for ticket 923.
+TKT00924,Jane Smith,Eve,Network,Medium,On Hold,2024-03-28 17:12:50,2024-04-01 21:12:50,Sample issue 924,This is a description for ticket 924.
+TKT00925,Tom Clark,Frank,Access,Medium,Open,2024-04-07 22:22:46,,Sample issue 925,This is a description for ticket 925.
+TKT00926,Jane Smith,Diana,Software,Low,Resolved,2023-12-29 15:19:34,2024-01-04 10:19:34,Sample issue 926,This is a description for ticket 926.
+TKT00927,Tom Clark,Eve,Software,Medium,Resolved,2023-10-25 18:48:07,,Sample issue 927,This is a description for ticket 927.
+TKT00928,Tom Clark,Eve,Hardware,Low,Resolved,2023-10-22 10:32:03,,Sample issue 928,This is a description for ticket 928.
+TKT00929,Linda White,Diana,Access,Medium,In Progress,2023-02-06 23:19:05,2023-02-08 03:19:05,Sample issue 929,This is a description for ticket 929.
+TKT00930,John Doe,Diana,Software,Medium,Open,2023-03-02 20:35:20,,Sample issue 930,This is a description for ticket 930.
+TKT00931,John Doe,Frank,Hardware,Medium,Resolved,2023-01-21 02:38:20,,Sample issue 931,This is a description for ticket 931.
+TKT00932,Mike Brown,Frank,Hardware,Medium,Closed,2023-05-06 01:00:38,,Sample issue 932,This is a description for ticket 932.
+TKT00933,Tom Clark,Frank,Software,Critical,Closed,2024-05-07 20:31:32,,Sample issue 933,This is a description for ticket 933.
+TKT00934,Sara Lee,Diana,Software,High,On Hold,2023-07-25 17:01:26,2023-07-29 11:01:26,Sample issue 934,This is a description for ticket 934.
+TKT00935,Jane Smith,Bob,Hardware,High,Closed,2023-03-11 16:42:55,2023-03-20 13:42:55,Sample issue 935,This is a description for ticket 935.
+TKT00936,Tom Clark,Bob,Network,Low,Open,2023-12-16 10:03:00,2023-12-20 16:03:00,Sample issue 936,This is a description for ticket 936.
+TKT00937,Mike Brown,Eve,Access,Critical,Resolved,2023-06-23 16:20:48,2023-06-26 17:20:48,Sample issue 937,This is a description for ticket 937.
+TKT00938,Tom Clark,Alice,Network,High,On Hold,2023-11-03 13:46:35,2023-11-04 11:46:35,Sample issue 938,This is a description for ticket 938.
+TKT00939,John Doe,Bob,Software,High,Closed,2023-12-03 21:51:57,2023-12-04 23:51:57,Sample issue 939,This is a description for ticket 939.
+TKT00940,John Doe,Diana,Network,Medium,Resolved,2024-04-07 13:50:33,2024-04-14 15:50:33,Sample issue 940,This is a description for ticket 940.
+TKT00941,Jane Smith,Alice,Software,Low,Resolved,2023-03-01 09:50:04,2023-03-09 11:50:04,Sample issue 941,This is a description for ticket 941.
+TKT00942,Jane Smith,Frank,Network,Medium,Resolved,2024-02-15 14:49:53,2024-02-24 00:49:53,Sample issue 942,This is a description for ticket 942.
+TKT00943,Linda White,Frank,Other,Low,On Hold,2023-10-14 06:54:49,,Sample issue 943,This is a description for ticket 943.
+TKT00944,Linda White,Diana,Other,Critical,On Hold,2023-12-28 06:43:09,,Sample issue 944,This is a description for ticket 944.
+TKT00945,Mike Brown,Alice,Network,Medium,In Progress,2023-01-09 01:15:32,,Sample issue 945,This is a description for ticket 945.
+TKT00946,Mike Brown,Bob,Access,High,On Hold,2023-12-31 11:04:48,,Sample issue 946,This is a description for ticket 946.
+TKT00947,Tom Clark,Bob,Hardware,Low,In Progress,2023-05-01 15:26:02,2023-05-10 03:26:02,Sample issue 947,This is a description for ticket 947.
+TKT00948,Mike Brown,Eve,Software,High,Closed,2023-02-27 01:01:53,,Sample issue 948,This is a description for ticket 948.
+TKT00949,John Doe,Alice,Access,Medium,Open,2023-11-27 05:11:56,2023-11-29 11:11:56,Sample issue 949,This is a description for ticket 949.
+TKT00950,Mike Brown,Charlie,Other,Low,In Progress,2023-07-11 03:39:20,,Sample issue 950,This is a description for ticket 950.
+TKT00951,Linda White,Frank,Access,High,Open,2023-06-28 03:28:07,,Sample issue 951,This is a description for ticket 951.
+TKT00952,Linda White,Diana,Network,Critical,Open,2023-03-14 04:17:54,2023-03-17 03:17:54,Sample issue 952,This is a description for ticket 952.
+TKT00953,Jane Smith,Bob,Network,High,Closed,2023-01-09 11:57:24,,Sample issue 953,This is a description for ticket 953.
+TKT00954,Linda White,Charlie,Access,High,On Hold,2023-04-01 06:11:42,,Sample issue 954,This is a description for ticket 954.
+TKT00955,Linda White,Bob,Hardware,Medium,Resolved,2023-05-14 18:46:37,2023-05-15 23:46:37,Sample issue 955,This is a description for ticket 955.
+TKT00956,Tom Clark,Eve,Network,High,Closed,2023-06-02 21:38:10,2023-06-04 17:38:10,Sample issue 956,This is a description for ticket 956.
+TKT00957,Linda White,Frank,Other,Low,On Hold,2024-02-20 05:29:41,,Sample issue 957,This is a description for ticket 957.
+TKT00958,Jane Smith,Charlie,Software,Medium,In Progress,2023-05-12 07:37:17,2023-05-16 02:37:17,Sample issue 958,This is a description for ticket 958.
+TKT00959,John Doe,Charlie,Access,Low,Open,2024-03-12 14:43:29,2024-03-14 15:43:29,Sample issue 959,This is a description for ticket 959.
+TKT00960,Mike Brown,Bob,Software,Low,On Hold,2024-04-17 20:08:39,,Sample issue 960,This is a description for ticket 960.
+TKT00961,Sara Lee,Eve,Network,Medium,In Progress,2023-05-31 19:12:46,,Sample issue 961,This is a description for ticket 961.
+TKT00962,Tom Clark,Alice,Software,Medium,On Hold,2023-08-22 09:42:45,2023-08-27 00:42:45,Sample issue 962,This is a description for ticket 962.
+TKT00963,Tom Clark,Charlie,Software,Medium,Closed,2024-01-12 20:56:00,,Sample issue 963,This is a description for ticket 963.
+TKT00964,Mike Brown,Charlie,Software,Medium,In Progress,2024-02-07 02:17:46,,Sample issue 964,This is a description for ticket 964.
+TKT00965,Linda White,Alice,Network,Medium,Resolved,2024-04-11 08:54:24,2024-04-12 13:54:24,Sample issue 965,This is a description for ticket 965.
+TKT00966,Tom Clark,Bob,Network,Medium,In Progress,2024-05-06 15:57:47,2024-05-15 01:57:47,Sample issue 966,This is a description for ticket 966.
+TKT00967,John Doe,Eve,Hardware,Medium,On Hold,2023-08-02 20:47:22,,Sample issue 967,This is a description for ticket 967.
+TKT00968,Linda White,Frank,Other,Medium,Closed,2023-01-02 22:49:26,2023-01-04 00:49:26,Sample issue 968,This is a description for ticket 968.
+TKT00969,Linda White,Diana,Software,Low,In Progress,2023-09-25 09:55:10,2023-09-29 10:55:10,Sample issue 969,This is a description for ticket 969.
+TKT00970,Mike Brown,Bob,Network,Low,In Progress,2023-07-07 16:08:14,2023-07-13 19:08:14,Sample issue 970,This is a description for ticket 970.
+TKT00971,Jane Smith,Eve,Network,Medium,Closed,2023-05-02 07:32:31,,Sample issue 971,This is a description for ticket 971.
+TKT00972,Sara Lee,Charlie,Software,Low,Closed,2023-11-25 00:14:46,2023-11-25 12:14:46,Sample issue 972,This is a description for ticket 972.
+TKT00973,Linda White,Alice,Access,Critical,Resolved,2024-04-13 03:12:56,2024-04-14 15:12:56,Sample issue 973,This is a description for ticket 973.
+TKT00974,Tom Clark,Charlie,Software,Low,Open,2023-12-05 11:58:56,2023-12-09 11:58:56,Sample issue 974,This is a description for ticket 974.
+TKT00975,Linda White,Charlie,Software,Low,In Progress,2023-11-25 23:21:50,,Sample issue 975,This is a description for ticket 975.
+TKT00976,Linda White,Bob,Other,High,Resolved,2023-02-08 10:32:03,,Sample issue 976,This is a description for ticket 976.
+TKT00977,Tom Clark,Alice,Other,Low,Closed,2024-02-20 09:54:57,,Sample issue 977,This is a description for ticket 977.
+TKT00978,Sara Lee,Eve,Network,Critical,In Progress,2023-04-29 00:41:02,2023-04-29 12:41:02,Sample issue 978,This is a description for ticket 978.
+TKT00979,Jane Smith,Bob,Network,Critical,Resolved,2023-08-06 23:35:56,2023-08-10 05:35:56,Sample issue 979,This is a description for ticket 979.
+TKT00980,John Doe,Frank,Access,High,In Progress,2023-05-07 01:51:26,,Sample issue 980,This is a description for ticket 980.
+TKT00981,John Doe,Diana,Network,High,On Hold,2023-03-08 21:16:45,,Sample issue 981,This is a description for ticket 981.
+TKT00982,Mike Brown,Eve,Hardware,Medium,Open,2023-10-24 10:24:25,2023-11-01 15:24:25,Sample issue 982,This is a description for ticket 982.
+TKT00983,John Doe,Diana,Hardware,Low,Resolved,2023-07-02 07:15:13,2023-07-06 07:15:13,Sample issue 983,This is a description for ticket 983.
+TKT00984,Linda White,Bob,Software,Medium,In Progress,2023-08-15 05:58:01,2023-08-22 17:58:01,Sample issue 984,This is a description for ticket 984.
+TKT00985,Sara Lee,Bob,Access,Medium,Open,2024-03-22 13:39:43,,Sample issue 985,This is a description for ticket 985.
+TKT00986,Tom Clark,Charlie,Hardware,Critical,In Progress,2023-04-23 23:08:29,,Sample issue 986,This is a description for ticket 986.
+TKT00987,John Doe,Frank,Software,Medium,Open,2023-03-18 06:45:48,2023-03-26 23:45:48,Sample issue 987,This is a description for ticket 987.
+TKT00988,Linda White,Diana,Software,Critical,Closed,2023-04-09 16:28:51,2023-04-15 17:28:51,Sample issue 988,This is a description for ticket 988.
+TKT00989,Tom Clark,Eve,Network,High,Resolved,2024-02-12 07:00:46,2024-02-18 09:00:46,Sample issue 989,This is a description for ticket 989.
+TKT00990,Linda White,Alice,Access,Low,Closed,2024-02-20 21:07:48,2024-02-25 16:07:48,Sample issue 990,This is a description for ticket 990.
+TKT00991,Tom Clark,Bob,Network,High,On Hold,2023-11-30 02:55:19,2023-12-08 09:55:19,Sample issue 991,This is a description for ticket 991.
+TKT00992,Linda White,Frank,Other,High,In Progress,2023-04-03 19:15:03,2023-04-09 21:15:03,Sample issue 992,This is a description for ticket 992.
+TKT00993,Jane Smith,Charlie,Software,High,Open,2023-01-30 19:42:58,2023-02-02 05:42:58,Sample issue 993,This is a description for ticket 993.
+TKT00994,Sara Lee,Frank,Software,Critical,In Progress,2023-02-16 05:57:22,,Sample issue 994,This is a description for ticket 994.
+TKT00995,Mike Brown,Frank,Other,Low,Closed,2024-04-11 21:13:09,,Sample issue 995,This is a description for ticket 995.
+TKT00996,Linda White,Eve,Network,High,Closed,2023-11-20 04:55:35,,Sample issue 996,This is a description for ticket 996.
+TKT00997,Linda White,Frank,Access,Low,Open,2023-05-10 16:07:39,,Sample issue 997,This is a description for ticket 997.
+TKT00998,Jane Smith,Diana,Software,Critical,Resolved,2023-11-05 12:54:19,,Sample issue 998,This is a description for ticket 998.
+TKT00999,Tom Clark,Charlie,Other,Medium,On Hold,2023-04-21 12:18:14,,Sample issue 999,This is a description for ticket 999.
+TKT01000,Tom Clark,Alice,Other,Medium,In Progress,2023-03-22 10:29:07,,Sample issue 1000,This is a description for ticket 1000.
+TKT01001,Tom Clark,Alice,Other,Medium,In Progress,2023-03-22 10:29:07,,Sample issue 1000,This is a description for ticket 1000.
