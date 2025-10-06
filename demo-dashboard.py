@@ -6,72 +6,94 @@ import plotly.express as px
 from PIL import Image
 import base64
 
-# Set background image using custom CSS
-def set_bg(image_file):
-    with open(image_file, "rb") as image:
+# ---------------------------------------
+# 🔧 PAGE CONFIGURATION
+# ---------------------------------------
+st.set_page_config(
+    page_title="Service Ticket Dashboard",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
+# ---------------------------------------
+# 🎨 BACKGROUND IMAGE SETUP
+# ---------------------------------------
+def set_background(image_path: str):
+    """Apply a background image with a dark overlay."""
+    with open(image_path, "rb") as image:
         encoded = base64.b64encode(image.read()).decode()
     st.markdown(f"""
         <style>
         .stApp {{
-            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('data:image/png;base64,{encoded}');
+            background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
+                        url('data:image/png;base64,{encoded}');
             background-size: cover;
             background-blend-mode: darken;
         }}
         </style>
     """, unsafe_allow_html=True)
 
-set_bg('images/bg.png')
+set_background('images/bg.png')
 
-# Layout: Hamburger button outside yellow bar, yellow bar contains logo and title
-logo_bytes = open("images/logo.png", "rb").read()
-logo_base64 = base64.b64encode(logo_bytes).decode()
+# ---------------------------------------
+# 🟨 HEADER SECTION
+# ---------------------------------------
+def header_section():
+    logo_bytes = open("images/logo.png", "rb").read()
+    logo_base64 = base64.b64encode(logo_bytes).decode()
 
-header = st.container()
-with header:
-    col_btn, col_yellow, col_spacer = st.columns([1, 20, 1])
-    with col_btn:
-        if st.button("☰", key="hamburger_menu", help="Show/hide filters"):
-            st.session_state['show_filters'] = not st.session_state.get('show_filters', False)
-    with col_yellow:
-        st.markdown(f"""
-            <div style='height:72px; width:100%; background-color:#FFD900; display:flex; align-items:center;'>
-                <img src='data:image/png;base64,{logo_base64}' height='56' style='margin-left:0; margin-right:16px;'>
-                <span style='font-size:24px; font-weight:bold; color:#3F58A6; vertical-align:middle;'>Service Ticket Dashboard</span>
-            </div>
-        """, unsafe_allow_html=True)
-    with col_spacer:
-        st.markdown("")
+    header = st.container()
+    with header:
+        col_btn, col_yellow, col_spacer = st.columns([1, 20, 1])
+        with col_btn:
+            if st.button("☰", key="hamburger_menu", help="Show/hide filters"):
+                st.session_state['show_filters'] = not st.session_state.get('show_filters', False)
+        with col_yellow:
+            st.markdown(f"""
+                <div style='height:72px; width:100%; background-color:#FFD900; display:flex; align-items:center;'>
+                    <img src='data:image/png;base64,{logo_base64}' height='56' style='margin-left:0; margin-right:16px;'>
+                    <span style='font-size:24px; font-weight:bold; color:#3F58A6; vertical-align:middle;'>
+                        Service Ticket Dashboard
+                    </span>
+                </div>
+            """, unsafe_allow_html=True)
 
-# Add spacing after the yellow bar
+header_section()
 st.markdown("<div style='height:24px;'></div>", unsafe_allow_html=True)
 
-# Initialize session state for filter visibility
+# ---------------------------------------
+# 🧭 SESSION STATE INITIALIZATION
+# ---------------------------------------
 if 'show_filters' not in st.session_state:
     st.session_state['show_filters'] = False
 
-# Load data
-df = pd.read_csv('service_ticket_details.csv')
+# ---------------------------------------
+# 📦 LOAD DATA
+# ---------------------------------------
+@st.cache_data
+def load_data():
+    df = pd.read_csv('service_ticket_details.csv')
+    df['CreatedDate'] = pd.to_datetime(df['CreatedDate'])
+    df['ClosedDate'] = pd.to_datetime(df['ClosedDate'], errors='coerce')
+    return df
 
-df['CreatedDate'] = pd.to_datetime(df['CreatedDate'])
-df['ClosedDate'] = pd.to_datetime(df['ClosedDate'], errors='coerce')
+df = load_data()
 
-# Sidebar filters (activated by logo click)
+# ---------------------------------------
+# 🔍 FILTERS
+# ---------------------------------------
 if st.session_state.get('show_filters', False):
     with st.sidebar:
-        st.title("Service Ticket Dashboard")
-        st.header("⚙️ Filters")
+        st.title("⚙️ Filters")
         min_date, max_date = df['CreatedDate'].min().date(), df['CreatedDate'].max().date()
         start_date = st.date_input("Start date", min_value=min_date, max_value=max_date, value=min_date)
         end_date = st.date_input("End date", min_value=min_date, max_value=max_date, value=max_date)
-        all_categories = list(df['Category'].unique())
-        all_priorities = list(df['Priority'].unique())
-        all_statuses = list(df['Status'].unique())
-        category = st.multiselect('Category', options=all_categories, default=all_categories)
-        priority = st.multiselect('Priority', options=all_priorities, default=all_priorities)
-        status = st.multiselect('Status', options=all_statuses, default=all_statuses)
+
+        category = st.multiselect('Category', options=df['Category'].unique(), default=df['Category'].unique())
+        priority = st.multiselect('Priority', options=df['Priority'].unique(), default=df['Priority'].unique())
+        status = st.multiselect('Status', options=df['Status'].unique(), default=df['Status'].unique())
         time_frame = st.selectbox("Time frame", ("Daily", "Monthly", "Quarterly", "Yearly"))
 else:
-    # Default filter values
     start_date = df['CreatedDate'].min().date()
     end_date = df['CreatedDate'].max().date()
     category = list(df['Category'].unique())
@@ -79,7 +101,9 @@ else:
     status = list(df['Status'].unique())
     time_frame = "Monthly"
 
-# Filter data
+# ---------------------------------------
+# 🧹 FILTER DATA
+# ---------------------------------------
 filtered_df = df[
     (df['CreatedDate'].dt.date >= start_date) &
     (df['CreatedDate'].dt.date <= end_date) &
@@ -88,91 +112,78 @@ filtered_df = df[
     (df['Status'].isin(status))
 ]
 
-# Metrics for summary cards
+# ---------------------------------------
+# 📊 METRICS CALCULATION
+# ---------------------------------------
 total_tickets = len(filtered_df)
 active_tickets = filtered_df[filtered_df['Status'].isin(['Open', 'In Progress', 'On Hold'])].shape[0]
 new_tickets = filtered_df[filtered_df['CreatedDate'] > (datetime.now() - pd.Timedelta(days=30))].shape[0]
 closed_tickets = filtered_df[filtered_df['Status'] == 'Closed'].shape[0]
-closure_rate = closed_tickets / total_tickets * 100 if total_tickets > 0 else 0
+closure_rate = (closed_tickets / total_tickets * 100) if total_tickets > 0 else 0
 
-# Chart style config and color palette (define before any chart)
+# ---------------------------------------
+# 🎨 CHART CONFIG
+# ---------------------------------------
 chart_layout = dict(
     paper_bgcolor='rgba(0,0,0,0)',
     plot_bgcolor='rgba(0,0,0,0)',
-    font=dict(color='#fff', family='Arial', size=14), # white
+    font=dict(color='#fff', family='Arial', size=14),
     title_font=dict(color='#fff', family='Arial', size=18),
     legend=dict(font=dict(color='#fff')),
     xaxis=dict(title_font=dict(color='#fff'), tickfont=dict(color='#fff')),
     yaxis=dict(title_font=dict(color='#fff'), tickfont=dict(color='#fff')),
 )
 CHART_COLORS = ['#3F58A6', '#97934F', '#C19F62', '#FFD900']
+YELLOW_SHADES = ['#FFD900', '#FFE34D', '#FFEB80', '#FFF3B3', '#FFF9CC', '#FFFDE6']
 
-# Define yellow shades for bar and line charts
-YELLOW_SHADES = [
-    '#FFD900',  # base
-    '#FFE34D',
-    '#FFEB80',
-    '#FFF3B3',
-    '#FFF9CC',
-    '#FFFDE6',
-]
+# ---------------------------------------
+# 🍩 DONUT CHARTS
+# ---------------------------------------
+def create_donut(df, column, title):
+    counts = df[column].value_counts().reset_index()
+    counts.columns = [column, 'Count']
+    fig = px.pie(counts, names=column, values='Count', title=title, hole=0.5,
+                 color_discrete_sequence=CHART_COLORS)
+    fig.update_layout(**chart_layout)
+    return fig
 
-# Donut charts (middle row)
-cat_counts = filtered_df['Category'].value_counts().reset_index()
-cat_counts.columns = ['Category', 'Count']
-category_donut = px.pie(cat_counts, names='Category', values='Count', title='Tickets by Category', hole=0.5, color_discrete_sequence=CHART_COLORS)
-category_donut.update_layout(**chart_layout)
+category_donut = create_donut(filtered_df, 'Category', 'Tickets by Category')
+priority_donut = create_donut(filtered_df, 'Priority', 'Tickets by Priority')
+status_donut = create_donut(filtered_df, 'Status', 'Tickets by Status')
 
-priority_counts = filtered_df['Priority'].value_counts().reset_index()
-priority_counts.columns = ['Priority', 'Count']
-priority_donut = px.pie(priority_counts, names='Priority', values='Count', title='Tickets by Priority', hole=0.5, color_discrete_sequence=CHART_COLORS)
-priority_donut.update_layout(**chart_layout)
+# ---------------------------------------
+# 📈 TIME SERIES CHARTS
+# ---------------------------------------
+def group_time(df, freq_label):
+    df_time = df.copy()
+    if freq_label == "Daily":
+        df_time['TimeGroup'] = df_time['CreatedDate'].dt.date
+    elif freq_label == "Monthly":
+        df_time['TimeGroup'] = df_time['CreatedDate'].dt.to_period('M').dt.strftime('%b %Y')
+    elif freq_label == "Quarterly":
+        df_time['TimeGroup'] = df_time['CreatedDate'].dt.to_period('Q').astype(str)
+    else:
+        df_time['TimeGroup'] = df_time['CreatedDate'].dt.year.astype(str)
+    return df_time
 
-status_counts = filtered_df['Status'].value_counts().reset_index()
-status_counts.columns = ['Status', 'Count']
-status_donut = px.pie(status_counts, names='Status', values='Count', title='Tickets by Status', hole=0.5, color_discrete_sequence=CHART_COLORS)
-status_donut.update_layout(**chart_layout)
-
-# Line charts (bottom row): Total, Active, and Closed tickets over selected time frame
-if time_frame == "Daily":
-    df_time = filtered_df.copy()
-    df_time['TimeGroup'] = df_time['CreatedDate'].dt.date
-elif time_frame == "Monthly":
-    df_time = filtered_df.copy()
-    df_time['TimeGroup'] = df_time['CreatedDate'].dt.to_period('M').dt.strftime('%b %Y')
-elif time_frame == "Quarterly":
-    df_time = filtered_df.copy()
-    df_time['TimeGroup'] = df_time['CreatedDate'].dt.to_period('Q').astype(str)
-else:  # Yearly
-    df_time = filtered_df.copy()
-    df_time['TimeGroup'] = df_time['CreatedDate'].dt.year.astype(str)
-
+df_time = group_time(filtered_df, time_frame)
 grouped_total = df_time.groupby('TimeGroup').size().reset_index(name='Total Tickets')
 grouped_active = df_time[df_time['Status'].isin(['Open', 'In Progress', 'On Hold'])].groupby('TimeGroup').size().reset_index(name='Active Tickets')
 grouped_closed = df_time[df_time['Status'] == 'Closed'].groupby('TimeGroup').size().reset_index(name='Closed Tickets')
 
-total_line_fig = px.line(
-    grouped_total, x='TimeGroup', y='Total Tickets', title=f'Total Tickets ({time_frame})',
-    line_shape='linear', markers=True, color_discrete_sequence=YELLOW_SHADES
-)
-total_line_fig.update_layout(**chart_layout)
+def create_line_chart(df, y_col, title):
+    fig = px.line(df, x='TimeGroup', y=y_col, title=title, markers=True, color_discrete_sequence=YELLOW_SHADES)
+    fig.update_layout(**chart_layout)
+    return fig
 
-active_line_fig = px.line(
-    grouped_active, x='TimeGroup', y='Active Tickets', title=f'Active Tickets ({time_frame})',
-    line_shape='linear', markers=True, color_discrete_sequence=YELLOW_SHADES
-)
-active_line_fig.update_layout(**chart_layout)
+total_line_fig = create_line_chart(grouped_total, 'Total Tickets', f'Total Tickets ({time_frame})')
+active_line_fig = create_line_chart(grouped_active, 'Active Tickets', f'Active Tickets ({time_frame})')
+closed_line_fig = create_line_chart(grouped_closed, 'Closed Tickets', f'Closed Tickets ({time_frame})')
 
-closed_line_fig = px.line(
-    grouped_closed, x='TimeGroup', y='Closed Tickets', title=f'Closed Tickets ({time_frame})',
-    line_shape='linear', markers=True, color_discrete_sequence=YELLOW_SHADES
-)
-closed_line_fig.update_layout(**chart_layout)
-
-# Layout
-st.set_page_config(layout='wide', page_title='Service Ticket Dashboard')
-
-# Summary cards (top)
+# ---------------------------------------
+# 🧾 DASHBOARD LAYOUT
+# ---------------------------------------
+# Summary cards
 row1_left, row1_center, row1_right = st.columns([1, 20, 1])
 with row1_center:
     col1, col2, col3, col4 = st.columns(4)
@@ -183,7 +194,7 @@ with row1_center:
 
 st.markdown('---')
 
-# Donut charts (middle row)
+# Donut charts
 row2_left, row2_center, row2_right = st.columns([1, 20, 1])
 with row2_center:
     colA, colB, colC = st.columns(3)
@@ -193,7 +204,7 @@ with row2_center:
 
 st.markdown('---')
 
-# Line charts (bottom row): Total, Active, and Closed tickets over selected time frame
+# Line charts
 row3_left, row3_center, row3_right = st.columns([1, 20, 1])
 with row3_center:
     colD, colE, colF = st.columns(3)
@@ -201,17 +212,16 @@ with row3_center:
     colE.plotly_chart(active_line_fig, use_container_width=True)
     colF.plotly_chart(closed_line_fig, use_container_width=True)
 
-# Set dark font color globally using custom CSS
+# ---------------------------------------
+# 🖋️ GLOBAL CSS (DARK THEME TEXT)
+# ---------------------------------------
 st.markdown("""
     <style>
-    html, body, [class^='css'], .stApp, .stSidebarContent, .stMetric, .stTitle, .stHeader, .stSubheader, .stCaption, .stMarkdown, .stDataFrame {
+    html, body, [class^='css'], .stApp, .stSidebarContent, .stMetric {
         color: #fff !important;
         font-family: Arial, sans-serif !important;
     }
-    .stButton>button {
-        color: #fff !important;
-    }
-    /* Metric card value and label color */
+    .stButton>button { color: #fff !important; }
     div[data-testid="stMetricValue"], div[data-testid="stMetricLabel"] {
         color: #fff !important;
         font-weight: bold;
