@@ -1,6 +1,7 @@
 streamlit
 pandas 
 datetime 
-plotly.express as px
+plotly.express
+plotly
 PIL 
 base64
