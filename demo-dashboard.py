@@ -82,7 +82,7 @@ with st.sidebar:
     category = st.multiselect('Category', options=df['Category'].unique(), default=df['Category'].unique())
     priority = st.multiselect('Priority', options=df['Priority'].unique(), default=df['Priority'].unique())
     status = st.multiselect('Status', options=df['Status'].unique(), default=df['Status'].unique())
-    time_frame = st.selectbox("Time frame", ("Daily", "Monthly", "Quarterly", "Yearly"))
+    time_frame = st.selectbox("Time frame", ("Monthly","Daily", "Quarterly", "Yearly"))
 
 # ---------------------------------------
 # FILTER DATA
