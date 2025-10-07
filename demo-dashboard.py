@@ -7,16 +7,16 @@ from PIL import Image
 import base64
 
 # ---------------------------------------
-# 🔧 PAGE CONFIGURATION
+# PAGE CONFIGURATION
 # ---------------------------------------
 st.set_page_config(
     page_title="Service Ticket Dashboard",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="expanded"  # Sidebar open by default
 )
 
 # ---------------------------------------
-# 🎨 BACKGROUND IMAGE SETUP
+# BACKGROUND IMAGE SETUP
 # ---------------------------------------
 def set_background(image_path: str):
     """Apply a background image with a dark overlay."""
@@ -36,7 +36,7 @@ def set_background(image_path: str):
 set_background('images/bg.png')
 
 # ---------------------------------------
-# 🟨 HEADER SECTION
+# HEADER SECTION
 # ---------------------------------------
 def header_section():
     logo_bytes = open("images/logo.png", "rb").read()
@@ -44,10 +44,7 @@ def header_section():
 
     header = st.container()
     with header:
-        col_btn, col_yellow, col_spacer = st.columns([1, 20, 1])
-        with col_btn:
-            if st.button("☰", key="hamburger_menu", help="Show/hide filters"):
-                st.session_state['show_filters'] = not st.session_state.get('show_filters', False)
+        col_yellow = st.columns([1])[0]
         with col_yellow:
             st.markdown(f"""
                 <div style='height:72px; width:100%; background-color:#FFD900; display:flex; align-items:center;'>
@@ -62,13 +59,7 @@ header_section()
 st.markdown("<div style='height:24px;'></div>", unsafe_allow_html=True)
 
 # ---------------------------------------
-# 🧭 SESSION STATE INITIALIZATION
-# ---------------------------------------
-if 'show_filters' not in st.session_state:
-    st.session_state['show_filters'] = False
-
-# ---------------------------------------
-# 📦 LOAD DATA
+# LOAD DATA
 # ---------------------------------------
 @st.cache_data
 def load_data():
@@ -80,29 +71,21 @@ def load_data():
 df = load_data()
 
 # ---------------------------------------
-# 🔍 FILTERS
+# FILTERS (Always Active)
 # ---------------------------------------
-if st.session_state.get('show_filters', False):
-    with st.sidebar:
-        st.title("⚙️ Filters")
-        min_date, max_date = df['CreatedDate'].min().date(), df['CreatedDate'].max().date()
-        start_date = st.date_input("Start date", min_value=min_date, max_value=max_date, value=min_date)
-        end_date = st.date_input("End date", min_value=min_date, max_value=max_date, value=max_date)
+with st.sidebar:
+    st.title("⚙️ Filters")
+    min_date, max_date = df['CreatedDate'].min().date(), df['CreatedDate'].max().date()
+    start_date = st.date_input("Start date", min_value=min_date, max_value=max_date, value=min_date)
+    end_date = st.date_input("End date", min_value=min_date, max_value=max_date, value=max_date)
 
-        category = st.multiselect('Category', options=df['Category'].unique(), default=df['Category'].unique())
-        priority = st.multiselect('Priority', options=df['Priority'].unique(), default=df['Priority'].unique())
-        status = st.multiselect('Status', options=df['Status'].unique(), default=df['Status'].unique())
-        time_frame = st.selectbox("Time frame", ("Daily", "Monthly", "Quarterly", "Yearly"))
-else:
-    start_date = df['CreatedDate'].min().date()
-    end_date = df['CreatedDate'].max().date()
-    category = list(df['Category'].unique())
-    priority = list(df['Priority'].unique())
-    status = list(df['Status'].unique())
-    time_frame = "Monthly"
+    category = st.multiselect('Category', options=df['Category'].unique(), default=df['Category'].unique())
+    priority = st.multiselect('Priority', options=df['Priority'].unique(), default=df['Priority'].unique())
+    status = st.multiselect('Status', options=df['Status'].unique(), default=df['Status'].unique())
+    time_frame = st.selectbox("Time frame", ("Daily", "Monthly", "Quarterly", "Yearly"))
 
 # ---------------------------------------
-# 🧹 FILTER DATA
+# FILTER DATA
 # ---------------------------------------
 filtered_df = df[
     (df['CreatedDate'].dt.date >= start_date) &
@@ -113,7 +96,7 @@ filtered_df = df[
 ]
 
 # ---------------------------------------
-# 📊 METRICS CALCULATION
+# METRICS CALCULATION
 # ---------------------------------------
 total_tickets = len(filtered_df)
 active_tickets = filtered_df[filtered_df['Status'].isin(['Open', 'In Progress', 'On Hold'])].shape[0]
@@ -122,7 +105,7 @@ closed_tickets = filtered_df[filtered_df['Status'] == 'Closed'].shape[0]
 closure_rate = (closed_tickets / total_tickets * 100) if total_tickets > 0 else 0
 
 # ---------------------------------------
-# 🎨 CHART CONFIG
+# CHART CONFIG
 # ---------------------------------------
 chart_layout = dict(
     paper_bgcolor='rgba(0,0,0,0)',
@@ -137,7 +120,7 @@ CHART_COLORS = ['#3F58A6', '#97934F', '#C19F62', '#FFD900']
 YELLOW_SHADES = ['#FFD900', '#FFE34D', '#FFEB80', '#FFF3B3', '#FFF9CC', '#FFFDE6']
 
 # ---------------------------------------
-# 🍩 DONUT CHARTS
+# DONUT CHARTS
 # ---------------------------------------
 def create_donut(df, column, title):
     counts = df[column].value_counts().reset_index()
@@ -152,7 +135,7 @@ priority_donut = create_donut(filtered_df, 'Priority', 'Tickets by Priority')
 status_donut = create_donut(filtered_df, 'Status', 'Tickets by Status')
 
 # ---------------------------------------
-# 📈 TIME SERIES CHARTS
+# TIME SERIES CHARTS
 # ---------------------------------------
 def group_time(df, freq_label):
     df_time = df.copy()
@@ -181,9 +164,8 @@ active_line_fig = create_line_chart(grouped_active, 'Active Tickets', f'Active T
 closed_line_fig = create_line_chart(grouped_closed, 'Closed Tickets', f'Closed Tickets ({time_frame})')
 
 # ---------------------------------------
-# 🧾 DASHBOARD LAYOUT
+# DASHBOARD LAYOUT
 # ---------------------------------------
-# Summary cards
 row1_left, row1_center, row1_right = st.columns([1, 20, 1])
 with row1_center:
     col1, col2, col3, col4 = st.columns(4)
@@ -194,7 +176,6 @@ with row1_center:
 
 st.markdown('---')
 
-# Donut charts
 row2_left, row2_center, row2_right = st.columns([1, 20, 1])
 with row2_center:
     colA, colB, colC = st.columns(3)
@@ -204,7 +185,6 @@ with row2_center:
 
 st.markdown('---')
 
-# Line charts
 row3_left, row3_center, row3_right = st.columns([1, 20, 1])
 with row3_center:
     colD, colE, colF = st.columns(3)
@@ -213,7 +193,7 @@ with row3_center:
     colF.plotly_chart(closed_line_fig, use_container_width=True)
 
 # ---------------------------------------
-# 🖋️ GLOBAL CSS (DARK THEME TEXT)
+# GLOBAL CSS (DARK THEME TEXT)
 # ---------------------------------------
 st.markdown("""
     <style>
@@ -221,7 +201,6 @@ st.markdown("""
         color: #fff !important;
         font-family: Arial, sans-serif !important;
     }
-    .stButton>button { color: #fff !important; }
     div[data-testid="stMetricValue"], div[data-testid="stMetricLabel"] {
         color: #fff !important;
         font-weight: bold;
