@@ -169,10 +169,38 @@ closed_line_fig = create_line_chart(grouped_closed, 'Closed Tickets', f'Closed T
 row1_left, row1_center, row1_right = st.columns([1, 20, 1])
 with row1_center:
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric('Total Tickets', total_tickets)
-    col2.metric('Active Tickets', active_tickets)
-    col3.metric('New Tickets (30d)', new_tickets)
-    col4.metric('Closure Rate (%)', f'{closure_rate:.1f}')
+ 
+    # Total Tickets
+    col1.markdown(f"""
+        <div style='text-align: center;'>
+            <span style='color: white; font-weight: bold;'>Total Tickets</span><br>
+            <span style='font-size: 24px;'>{total_tickets}</span>
+        </div>
+        """, unsafe_allow_html=True)
+ 
+    # Active Tickets
+    col2.markdown(f"""
+        <div style='text-align: center;'>
+            <span style='color: white; font-weight: bold;'>Active Tickets</span><br>
+            <span style='font-size: 24px;'>{active_tickets}</span>
+        </div>
+        """, unsafe_allow_html=True)
+ 
+    # New Tickets (30d)
+    col3.markdown(f"""
+        <div style='text-align: center;'>
+            <span style='color: white; font-weight: bold;'>New Tickets (30d)</span><br>
+            <span style='font-size: 24px;'>{new_tickets}</span>
+        </div>
+        """, unsafe_allow_html=True)
+ 
+    # Closure Rate (%)
+    col4.markdown(f"""
+        <div style='text-align: center;'>
+            <span style='color: white; font-weight: bold;'>Closure Rate (%)</span><br>
+            <span style='font-size: 24px;'>{closure_rate:.1f}%</span>
+        </div>
+        """, unsafe_allow_html=True)
 
 st.markdown('---')
 
